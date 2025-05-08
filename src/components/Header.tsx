@@ -35,15 +35,15 @@ const Header: React.FC = () => {
     <Topbar />
 
     <header className="sticky top-0 z-40 bg-white bg-opacity-95 backdrop-blur-sm shadow-sm transition-all duration-300">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-      <div className="flex-1 flex justify-left">
+      <div className="container mx-auto px-4 py-2 flex justify-between items-center">
+      <div className="flex-1 flex justify-start">
+    <Link to="/" className="flex items-center space-x-3" onClick={closeMenus}>
       <img src="/src/images/logotrasparent.png" alt="Logo" className="h-12 w-12 rounded-full" />
-        <Link to="/" className="flex flex-col items-left space-y-1 text-left" onClick={closeMenus}>
-          <span className="text-xl font-bold text-blue-900 leading-tight text-center">
-            Harar Microfinance<br />Institution
-          </span>
-        </Link>
-</div>
+      <span className="text-xl font-bold text-blue-900 leading-tight text-center">
+      {t('institutionTitle')}<br />{t('institutionTitle2')}
+      </span>
+    </Link>
+  </div>
 
         
         {/* Desktop Navigation */}

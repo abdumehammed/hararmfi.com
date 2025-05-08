@@ -29,8 +29,8 @@ const Topbar: React.FC = () => {
     },
     {
       icon: <FaEnvelope className="text-blue-700 mr-2" />,
-      label: "Contact Center",
-      href: "mailto:ContactCenter@Hararmfi.com",
+      label: "ContactCenter@hararmfi.com",
+      href: "mailto:contactcenter@hararmfi.com",
     },
     {
       label: <img src={webmaillogo} alt="Webmail" className="w-24 h-5" />,
@@ -41,17 +41,17 @@ const Topbar: React.FC = () => {
   const socialLinks = [
     {
       icon: <FaFacebookF />,
-      href: "https://www.facebook.com/...",
+      href: "https://www.facebook.com/people/Harar-MicroFinance-Institution/61565622741044/",
       label: "Facebook",
     },
     {
       icon: <FaTwitter />,
-      href: "https://x.com/...",
+      href: "https://x.com/hararmfi/",
       label: "Twitter",
     },
     {
       icon: <FaLinkedinIn />,
-      href: "https://www.linkedin.com/...",
+      href: "https://www.linkedin.com/in/harar-microfinance-institution-s-c-420141329/",
       label: "LinkedIn",
     },
   ];

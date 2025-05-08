@@ -10,13 +10,13 @@ interface BlogPostCardProps {
 
 const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => {
   const { t } = useLanguage();
-  
+
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden transition-all duration-300 hover:shadow-xl">
       <div className="relative h-48 overflow-hidden">
-        <img 
-          src={post.imageUrl} 
-          alt={post.title} 
+        <img
+          src={post.imageUrl}
+          alt={post.title}
           className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
         />
       </div>
@@ -33,7 +33,7 @@ const BlogPostCard: React.FC<BlogPostCardProps> = ({ post }) => {
         <p className="text-gray-600 mb-4 line-clamp-3">
           {post.excerpt}
         </p>
-        <Link 
+        <Link
           to={`/blog/${post.slug}`}
           className="inline-block bg-blue-100 text-blue-700 font-medium px-4 py-2 rounded-md hover:bg-blue-200 transition-colors"
         >
