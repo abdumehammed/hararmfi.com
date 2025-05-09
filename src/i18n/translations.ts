@@ -52,16 +52,21 @@ export const translations = {
     feature4_paragraph:'we utilize the latest core banking Solution which allows us to serve you with innovative and efficient way. Our modern tools and systems ensure seamless service to enhance your financial experience.',
 
 
-    // Services section
     servicesTitle: 'Products & Services',
     servicesSubtitle: 'Financial solutions tailored to your needs',
-    service1: 'TRANSLATION NEEDED',
-    service2: 'TRANSLATION NEEDED',
-    service3: 'TRANSLATION NEEDED',
-    service4: 'TRANSLATION NEEDED',
-    service5: 'TRANSLATION NEEDED',
-    service6: 'TRANSLATION NEEDED',
-    service7: 'TRANSLATION NEEDED',
+    service_title:' Saving Products',
+    service1_paragraph:'we offer different types of savings products designed to help clients build financial security with flexible terms and competitive interest rates. Whether for short-term needs or long-term goal',
+
+    service2_title:' Loan Products',
+    service2_paragraph:' We provide tailored loan solutions to empower businesses and individuals with flexible repayment options and competitive rates. Our loans are designed to support your growth.',
+
+    service3_title:' Islamic Products',
+    service3_paragraph:'Our Sharia-compliant products ensure ethical and halal methods for both saving and loans by offering interest-free solutions to meet your financial needs while strictly adhering to Islamic law.',
+
+    service4_title:' Modern Technology',
+    service4_paragraph:'we utilize the latest core banking Solution which allows us to serve you with innovative and efficient way. Our modern tools and systems ensure seamless service to enhance your financial experience.',
+    // Services section
+
     // About section
     aboutTitle: 'About Us',
     aboutSubtitle: 'Our mission and vision',
