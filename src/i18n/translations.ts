@@ -55,8 +55,8 @@ export const translations = {
 
     servicesTitle: 'Products & Services',
     servicesSubtitle: 'Financial solutions tailored to your needs',
-    service_title:' Saving Products',
-    service1_paragraph:'we offer different types of savings products designed to help clients build financial security with flexible terms and competitive interest rates. Whether for short-term needs or long-term goal',
+    service_title1:' Saving Products',
+    service1_paragraph1:'we offer different types of savings products designed to help clients build financial security with flexible terms and competitive interest rates. Whether for short-term needs or long-term goal',
 
     service2_title:' Loan Products',
     service2_paragraph:' We provide tailored loan solutions to empower businesses and individuals with flexible repayment options and competitive rates. Our loans are designed to support your growth.',
