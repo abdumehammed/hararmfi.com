@@ -8,6 +8,14 @@ import {
     Target,
     Laptop,
 } from 'lucide-react';
+import {
+    BarChart4,
+    PiggyBank,
+    Landmark,
+    BadgePercent,
+    HandCoins,
+    UsersRound
+} from 'lucide-react';
 
 const WhyUsSection: React.FC = () => {
     const { t } = useLanguage();
