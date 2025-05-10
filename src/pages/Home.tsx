@@ -65,9 +65,13 @@ const Home: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {services.slice(0, 4).map(service => (
+
+            {services.slice(0, 4).map(service => 
+            (
               <ServiceCard key={service.id} service={service} />
-            ))}
+            )
+          )
+            }
           </div>
 
           <div className="text-center mt-12">
