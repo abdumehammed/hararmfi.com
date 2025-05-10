@@ -18,18 +18,18 @@ const Home: React.FC = () => {
     <div className="flex flex-col min-h-screen">
       <Carousel />
       <WhyUsSection />
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-white bg-sky-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl text-center font-bold text-blue-900 mb-4">
-                {t('about')}   
+                {t('about')}
               </h2>
               <p className="text-gray-600 mb-6 text-justify">
-               {t('aboutusparagraph1')}
+                {t('aboutusparagraph1')}
               </p>
               <p className="text-gray-600 mb-8 text-justify">
-              {t('aboutusparagraph2')}
+                {t('aboutusparagraph2')}
               </p>
               <Link
                 to="/about"
@@ -50,7 +50,7 @@ const Home: React.FC = () => {
         </div>
       </section>
       <FactStats />
-      <Servicess/>
+      <Servicess />
       {/* Services Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -61,11 +61,11 @@ const Home: React.FC = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 
-            {services.slice(0, 4).map(service => 
+            {services.slice(0, 4).map(service =>
             (
               <ServiceCard key={service.id} service={service} />
             )
-          )
+            )
             }
           </div>
 
@@ -107,7 +107,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section> */}
-  
+
 
       {/* CTA Section */}
       {/* <section className="py-16 bg-gradient-to-r from-blue-800 to-blue-900 text-white">

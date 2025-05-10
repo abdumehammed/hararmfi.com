@@ -18,7 +18,7 @@ const Servicess: React.FC = () => {
             paragraph: t('feature1_paragraph'),
         },
         {
-            
+
             icon: <img src={ifb} alt="Saving" className="w-10 h-10 mx-auto rounded-full" />,
             title: t('feature2_title'),
             paragraph: t('feature2_paragraph'),
@@ -32,7 +32,7 @@ const Servicess: React.FC = () => {
 
     return (
         <>
-            <section className="bg-gradient-to-b from-blue-50 to-white py-12">
+            <section className="bg-gradient-to-b from-blue-50 to-orange py-12">
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {features.map((item, index) => (
