@@ -1,13 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { motion } from 'framer-motion';
-
-import {
-    Handshake,
-    CheckCircle,
-    Target,
-    Laptop,
-} from 'lucide-react';
+import ServiceCard from '../components/ServiceCard';
 import {
     BarChart4,
     PiggyBank,
@@ -17,22 +10,32 @@ import {
     UsersRound
 } from 'lucide-react';
 
-const WhyUsSection: React.FC = () => {
+import { motion } from 'framer-motion';
+
+import {
+    Handshake,
+    CheckCircle,
+    Target,
+    Laptop,
+} from 'lucide-react';
+
+
+const servicess: React.FC = () => {
     const { t } = useLanguage();
 
     const features = [
         {
-            icon: <Handshake className="text-orange-500  w-10 h-10 mx-auto" />,
+            icon: <HandCoins className="text-orange-500  w-10 h-10 mx-auto" />,
             title: t('feature1_title'),
             paragraph: t('feature1_paragraph'),
         },
         {
-            icon: <CheckCircle className="text-orange-500  w-10 h-10 mx-auto" />,
+            icon: <PiggyBank className="text-orange-500  w-10 h-10 mx-auto" />,
             title: t('feature2_title'),
             paragraph: t('feature2_paragraph'),
         },
         {
-            icon: <Target className="text-orange-500 w-10 h-10 mx-auto" />,
+            icon: <BarChart4 className="text-orange-500 w-10 h-10 mx-auto" />,
             title: t('feature3_title'),
             paragraph: t('feature3_paragraph'),
         },
@@ -74,4 +77,4 @@ const WhyUsSection: React.FC = () => {
     );
 };
 
-export default WhyUsSection;
+export default servicess;
