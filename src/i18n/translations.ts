@@ -36,7 +36,7 @@ export const translations = {
     slideSubtitle2: '',
     slideTitle3: '',
     slideSubtitle3: '',
-    aboutus: 'Why Us?',
+    aboutus: 'About Us',
     aboutusparagraph1: 'At Harar Microfinance Institution S.C., we are committed to fostering economic growth and financial sustainability. Our work focuses on empowering individuals in both rural and urban communities by providing them with essential and accessible financial services. By targeting the productive poor, we enable our clients to achieve financial independence, improve their quality of life, and actively contribute to the development of their communities.',
     aboutusparagraph2: 'We believe that inclusive finance is a powerful tool for transformation. Through trust-based relationships, tailored financial solutions, and community-centered services, we are helping to build a more resilient local economy. While our primary operations are based in the Harari Region, we are continually exploring ways to expand our impact and bring long-term value to more people across Ethiopia',
     more:'More',
@@ -243,7 +243,7 @@ export const translations = {
   atAGlance: 'At a Glance',
   labelAactiveCustomers: 'Active Customers',
   valueAactiveCustomers: 14160 ,
-  AactiveCustomerssuffix: '+',
+  AactiveCustomerssuffix: ' +',
 
   labelTotalCapital: 'Paid Capital ',
   valueTotalCapital: 302,
@@ -251,7 +251,7 @@ export const translations = {
 
   labelBranches: 'Branches',
   valueBranches: 4,
-  Branchessuffix: '+',
+  Branchessuffix: '  +',
 
   labelYearsOfOperation: 'Years of Operation',
   valueYearsOfOperation: 18,
@@ -330,21 +330,21 @@ export const translations = {
     chatbotDefaultResponse: 'TRANSLATION NEEDED',
      
     // FactsStats
-      labelAactiveCustomers: 'TRANSLATION NEEDED',
+      labelAactiveCustomers: 'ደንበኞች',
       valueAactiveCustomers: 14160 ,
-      AactiveCustomerssuffix: '+',
+      AactiveCustomerssuffix: ' +',
 
-      labelTotalCapital: 'TRANSLATION NEEDED',
-      valueTotalCapital: 12500,
-      TotalCapitalsuffix: '+',
+      labelTotalCapital: 'የተከፈለ ካፒታል',
+      valueTotalCapital: 302,
+      TotalCapitalsuffix: ' ሚ +',
 
-      labelBranches: 'TRANSLATION NEEDED',
-      valueBranches: 12500,
-      Branchessuffix: '+',
+      labelBranches: 'ቅርንጫፎች',
+      valueBranches: 4,
+      Branchessuffix: ' +',
 
-      labelYearsOfOperation: 'TRANSLATION NEEDED',
-      valueYearsOfOperation: 12500,
-      suffix: '+',
+      labelYearsOfOperation: 'የሥራ ዓመታት',
+      valueYearsOfOperation: 18,
+      suffix: ' +',
   },
   om: {
     institutionTitle: 'waldaa liqii qusannaa  ',
@@ -418,7 +418,7 @@ export const translations = {
     chatbotDefaultResponse: 'TRANSLATION NEEDED',
   },
   hr: {
-    institutionTitle: 'ሀረር ሊቂህ ዋ ቂሊ ቂሊ  ',
+    institutionTitle: 'ሐረር ሊቂህ ዋ ቂሊ ቂሊ  ',
     institutionTitle2: 'ታእሲስ',
     // Navigation
     home: 'Bakka',

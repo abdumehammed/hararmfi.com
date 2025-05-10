@@ -1,10 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 import { ArrowRight } from 'lucide-react';
-
 import { useLanguage } from '../context/LanguageContext';
-
 import ServiceCard from '../components/ServiceCard';
 import BlogPostCard from '../components/BlogPostCard';
 import Carousel from '../components/Carousel';
@@ -52,10 +49,8 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
-
-
-
-      {/* <FactStats /> */}
+      <FactStats />
+      <Servicess/>
       {/* Services Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
@@ -112,7 +107,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section> */}
-      <Servicess/>
+  
 
       {/* CTA Section */}
       {/* <section className="py-16 bg-gradient-to-r from-blue-800 to-blue-900 text-white">

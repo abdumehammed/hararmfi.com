@@ -1,23 +1,11 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import ServiceCard from './ServiceCard';
-import {
-    BarChart4,
-    PiggyBank,
-    Landmark,
-    BadgePercent,
-    HandCoins,
-    UsersRound
-} from 'lucide-react';
+import Saving from '/src/images/saving_product.jpg';
+import ifb from '/src/images/islam.png';
+import loan from '/src/images/loan.jpg';
 
 import { motion } from 'framer-motion';
-
-import {
-    Handshake,
-    CheckCircle,
-    Target,
-    Laptop,
-} from 'lucide-react';
 
 
 const Servicess: React.FC = () => {
@@ -25,25 +13,20 @@ const Servicess: React.FC = () => {
 
     const features = [
         {
-            icon: <HandCoins className="text-orange-500  w-10 h-10 mx-auto" />,
+            icon: <img src={Saving} alt="Saving" className="w-30 h-10 mx-auto full" />,
             title: t('feature1_title'),
             paragraph: t('feature1_paragraph'),
         },
         {
-            icon: <PiggyBank className="text-orange-500  w-10 h-10 mx-auto" />,
+            
+            icon: <img src={ifb} alt="Saving" className="w-10 h-10 mx-auto rounded-full" />,
             title: t('feature2_title'),
             paragraph: t('feature2_paragraph'),
         },
         {
-            icon: <BarChart4 className="text-orange-500 w-10 h-10 mx-auto" />,
+            icon: <img src={ifb} alt="Saving" className="w-10 h-10 mx-auto rounded-full" />,
             title: t('feature3_title'),
             paragraph: t('feature3_paragraph'),
-        },
-        {
-
-            icon: <Laptop className="text-orange-500 w-10 h-10 mx-auto" />,
-            title: t('feature4_title'),
-            paragraph: t('feature4_paragraph'),
         },
     ];
 
@@ -51,7 +34,7 @@ const Servicess: React.FC = () => {
         <>
             <section className="bg-gradient-to-b from-blue-50 to-white py-12">
                 <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                         {features.map((item, index) => (
                             <motion.div
                                 key={index}
@@ -62,8 +45,9 @@ const Servicess: React.FC = () => {
                                 className="bg-white border border-blue-200 shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 p-6 rounded-2xl text-center"
                             >
                                 <div className="flex justify-center mb-4">
+                                    <div className='flex w-full'>{item.icon}</div>
                                     <div className="bg-orange-200 rounded-full p-4 shadow-lg hover:scale-110 transition-transform duration-300">
-                                        <div className="text-white text-2xl">{item.icon}</div>
+                                        <div className="text-white text-2xl"></div>
                                     </div>
                                 </div>
                                 <h3 className="text-lg font-semibold text-blue-800 mb-2">{item.title}</h3>

@@ -11,7 +11,6 @@ import {
 
 const WhyUsSection: React.FC = () => {
     const { t } = useLanguage();
-
     const features = [
         {
             icon: <Handshake className="text-orange-500  w-10 h-10 mx-auto" />,
@@ -39,7 +38,7 @@ const WhyUsSection: React.FC = () => {
     return (
         <>
             <section className="bg-gradient-to-b from-blue-0 to-white py-12">
-                    <h2 class="text-3xl text-center font-bold text-blue-900 mb-4 "> {t('whyus')}   </h2>
+                    <h2 className="text-3xl text-center font-bold text-blue-900 mb-4 "> {t('whyus')}   </h2>
 
                 <div className="container mx-auto p-8">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

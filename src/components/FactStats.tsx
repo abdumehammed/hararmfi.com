@@ -67,7 +67,7 @@ const FactStats: React.FC = () => {
               viewport={{ once: true }}
             >
               <div className="mb-4">{fact.icon}</div>
-              <h3 className="text-2xl font-semibold text-gray-800">
+              <h3 className="text-2xl font-semibold text-sky-900">
                 <CountUp end={fact.value} duration={6} />{fact.suffix}
               </h3>
               <p className="text-gray-600">{fact.label}</p>
