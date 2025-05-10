@@ -29,7 +29,7 @@ const Carousel: React.FC = () => {
           <SwiperSlide>
             <div className="relative w-full h-full">
               <img
-                src="src/images/aaa.png"
+                src="/src/images/Carousel/carousel1.png"
                 alt={t('slideAlt1')}
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -58,7 +58,7 @@ const Carousel: React.FC = () => {
           <SwiperSlide>
             <div className="relative w-full h-full">
               <img
-                src="src/images/aaa.png"
+                src="/src/images/Carousel/carousel2.png"
                 alt={t('slideAlt2')}
                 className="absolute inset-0 w-full h-full object-cover"
               />
@@ -87,7 +87,7 @@ const Carousel: React.FC = () => {
           <SwiperSlide>
             <div className="relative w-full h-full">
               <img
-                src="src/images/bb.jpg"
+                src="/src/images/Carousel/cc.png"
                 alt={t('slideAlt3')}
                 className="absolute inset-0 w-full h-full object-cover"
               />

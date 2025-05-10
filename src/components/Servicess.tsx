@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import ServiceCard from '../components/ServiceCard';
+import ServiceCard from './ServiceCard';
 import {
     BarChart4,
     PiggyBank,
@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 
 
-const servicess: React.FC = () => {
+const Servicess: React.FC = () => {
     const { t } = useLanguage();
 
     const features = [
@@ -77,4 +77,4 @@ const servicess: React.FC = () => {
     );
 };
 
-export default servicess;
+export default Servicess;

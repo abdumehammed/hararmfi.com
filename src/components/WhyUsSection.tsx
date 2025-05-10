@@ -38,9 +38,12 @@ const WhyUsSection: React.FC = () => {
 
     return (
         <>
-            <section className="bg-gradient-to-b from-blue-50 to-white py-12">
-                <div className="container mx-auto px-4">
+            <section className="bg-gradient-to-b from-blue-0 to-white py-12">
+                    <h2 class="text-3xl text-center font-bold text-blue-900 mb-4 "> {t('whyus')}   </h2>
+
+                <div className="container mx-auto p-8">
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                        
                         {features.map((item, index) => (
                             <motion.div
                                 key={index}

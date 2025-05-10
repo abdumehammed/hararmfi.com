@@ -36,11 +36,12 @@ export const translations = {
     slideSubtitle2: '',
     slideTitle3: '',
     slideSubtitle3: '',
-    whyus: 'Why Us?',
-    whyusparagraph1: 'At Harar Microfinance Institution S.C., we are committed to fostering economic growth and financial sustainability. Our work focuses on empowering individuals in both rural and urban communities by providing them with essential and accessible financial services. By targeting the productive poor, we enable our clients to achieve financial independence, improve their quality of life, and actively contribute to the development of their communities.',
-    whyusparagraph2: 'We believe that inclusive finance is a powerful tool for transformation. Through trust-based relationships, tailored financial solutions, and community-centered services, we are helping to build a more resilient local economy. While our primary operations are based in the Harari Region, we are continually exploring ways to expand our impact and bring long-term value to more people across Ethiopia',
-    More:'More',
+    aboutus: 'Why Us?',
+    aboutusparagraph1: 'At Harar Microfinance Institution S.C., we are committed to fostering economic growth and financial sustainability. Our work focuses on empowering individuals in both rural and urban communities by providing them with essential and accessible financial services. By targeting the productive poor, we enable our clients to achieve financial independence, improve their quality of life, and actively contribute to the development of their communities.',
+    aboutusparagraph2: 'We believe that inclusive finance is a powerful tool for transformation. Through trust-based relationships, tailored financial solutions, and community-centered services, we are helping to build a more resilient local economy. While our primary operations are based in the Harari Region, we are continually exploring ways to expand our impact and bring long-term value to more people across Ethiopia',
+    more:'More',
     /* Features section*/
+    whyus:'Why Us',
     feature1_title:' Trusted Company',
     feature1_paragraph:'We are a trusted institute with a proven track record of providing reliable financial services to our clients. Our commitment to transparency and integrity ensures that you can trust us with your financial needs.',
     feature2_title:' Operational Excellence',
@@ -75,6 +76,7 @@ export const translations = {
     ourVision: 'Our Vision',
     visionText: 'A world where everyone has access to fair and transparent financial services to improve their lives and communities.',
     ourValues: 'Our Values',
+
 
     // Blog section
     blogTitle: 'Latest News',
@@ -273,10 +275,10 @@ export const translations = {
     slideSubtitle2: 'TRANSLATION NEEDED',
     slideTitle3: 'TRANSLATION NEEDED',
     slideSubtitle3: 'TRANSLATION NEEDED',
-    whyus: 'TRANSLATION NEEDED',
-    whyusparagraph1: 'TRANSLATION NEEDED',
-    whyusparagraph2: 'TRANSLATION NEEDED',
-
+    aboutus: 'TRANSLATION NEEDED',
+    aboutusparagraph1: 'TRANSLATION NEEDED',
+    aboutusparagraph2: 'TRANSLATION NEEDED',
+    more:'Translation Needed',
     // Services section
     servicesTitle: 'አገልግሎቶች',
     servicesSubtitle: 'የገንዘብ መፍትሔዎች ወደ ወደፊት ይመራሉ', // Review this translation
@@ -361,10 +363,10 @@ export const translations = {
     slideSubtitle2: '',
     slideTitle3: '',
     slideSubtitle3: '',
-    whyus: 'TRANSLATION NEEDED',
-    whyusparagraph1: 'TRANSLATION NEEDED',
-    whyusparagraph2: 'TRANSLATION NEEDED',
-
+    aboutus: 'TRANSLATION NEEDED',
+    aboutusparagraph1: 'TRANSLATION NEEDED',
+    aboutusparagraph2: 'TRANSLATION NEEDED',
+     more:'Translation needed',
     // Services section
     servicesTitle: 'Tajaajiloota',
     servicesSubtitle: 'TRANSLATION NEEDED',
@@ -431,9 +433,10 @@ export const translations = {
     slideSubtitle2: '',
     slideTitle3: '',
     slideSubtitle3: '',
-    whyus: 'TRANSLATION NEEDED',
-    whyusparagraph1: 'TRANSLATION NEEDED',
-    whyusparagraph2: 'TRANSLATION NEEDED',
+    aboutus: 'TRANSLATION NEEDED',
+    aboutusparagraph1: 'TRANSLATION NEEDED',
+    aboutusparagraph2: 'TRANSLATION NEEDED',
+    more:'TRANSLATION NEEDED',
     // Services section
     servicesTitle: 'አገልግሎቶች',
     servicesSubtitle: 'የገንዘብ መፍትሔዎች ወደ ወደፊት ይመራሉ', // Review this translation
