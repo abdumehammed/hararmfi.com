@@ -3,22 +3,24 @@ import { useLanguage } from '../context/LanguageContext';
 import ServiceCard from '../components/ServiceCard';
 import { services } from '../data/services';
 import { CheckCircle2 } from 'lucide-react';
-
+import Tabs from '../components/Tabs';
+import LoanCalculator from '../components/LoanCalculator';
 const Services: React.FC = () => {
   const { t } = useLanguage();
-  
+
   return (
     <div>
       {/* Header Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
+
+      {/* <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-16">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-4">{t('servicesTitle')}</h1>
           <p className="text-xl max-w-3xl mx-auto">{t('servicesSubtitle')}</p>
         </div>
-      </section>
-      
+      </section> */}
+      {/* <Tabs /> */}
       {/* Services Grid */}
-      <section className="py-16 bg-white">
+      {/* <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map(service => (
@@ -26,10 +28,10 @@ const Services: React.FC = () => {
             ))}
           </div>
         </div>
-      </section>
-      
+      </section> */}
+
       {/* Featured Service */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="order-2 lg:order-1">
@@ -37,7 +39,7 @@ const Services: React.FC = () => {
               <p className="text-gray-600 mb-6">
                 Our microloan programs are designed to provide accessible financing to entrepreneurs and small businesses that may not qualify for traditional bank loans. We believe in the power of financial inclusion to drive economic growth and community development.
               </p>
-              
+
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start">
                   <CheckCircle2 className="text-green-600 mt-1 mr-2 flex-shrink-0" size={20} />
@@ -60,48 +62,55 @@ const Services: React.FC = () => {
                   <span className="text-gray-700">Business coaching and support included with every loan</span>
                 </li>
               </ul>
-              
+
               <button className="px-6 py-3 bg-blue-700 text-white font-semibold rounded-lg hover:bg-blue-800 transition-colors shadow-md">
                 Apply for a Microloan
               </button>
             </div>
             <div className="order-1 lg:order-2 rounded-lg overflow-hidden shadow-xl">
-              <img 
+              <img
                 src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Microloan programs" 
+                alt="Microloan programs"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
         </div>
-      </section>
-      
+      </section> */}
+
       {/* Process Section */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-blue-900 mb-10 text-center">Our Simple Process</h2>
-          
-          <div className="flex flex-col md:flex-row justify-between max-w-4xl mx-auto">
-            <div className="text-center px-4 mb-8 md:mb-0">
+
+      <section className="py-12 bg-white overflow-x-hidden">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <h2 className="text-3xl font-bold text-blue-900 mb-12 text-center">Our Simple Process</h2>
+
+          <div className="relative flex flex-col md:flex-row justify-between items-start md:items-center max-w-4xl mx-auto">
+            {/* Horizontal line (only on medium and up) */}
+            <div className="hidden md:block absolute top-8 left-0 right-0 h-1 bg-blue-200 z-0"></div>
+
+            {/* Step 1 */}
+            <div className="text-center px-4 mb-12 md:mb-0 z-10 relative w-full md:w-1/4">
               <div className="w-16 h-16 rounded-full bg-blue-700 text-white flex items-center justify-center text-2xl font-bold mx-auto">1</div>
-              <div className="hidden md:block h-1 w-full bg-blue-200 absolute left-1/2 top-8 -z-10"></div>
               <h3 className="text-xl font-semibold mt-4 mb-2">Apply</h3>
               <p className="text-gray-600">Complete our simple application process online or in person.</p>
             </div>
-            
-            <div className="text-center px-4 mb-8 md:mb-0">
+
+            {/* Step 2 */}
+            <div className="text-center px-4 mb-12 md:mb-0 z-10 relative w-full md:w-1/4">
               <div className="w-16 h-16 rounded-full bg-blue-700 text-white flex items-center justify-center text-2xl font-bold mx-auto">2</div>
               <h3 className="text-xl font-semibold mt-4 mb-2">Consult</h3>
               <p className="text-gray-600">Meet with our financial advisors to discuss your needs and options.</p>
             </div>
-            
-            <div className="text-center px-4 mb-8 md:mb-0">
+
+            {/* Step 3 */}
+            <div className="text-center px-4 mb-12 md:mb-0 z-10 relative w-full md:w-1/4">
               <div className="w-16 h-16 rounded-full bg-blue-700 text-white flex items-center justify-center text-2xl font-bold mx-auto">3</div>
               <h3 className="text-xl font-semibold mt-4 mb-2">Approval</h3>
-              <p className="text-gray-600">Receive your approval decision, typically within 2-3 business days.</p>
+              <p className="text-gray-600">Receive your approval decision, typically within 2–3 business days.</p>
             </div>
-            
-            <div className="text-center px-4">
+
+            {/* Step 4 */}
+            <div className="text-center px-4 z-10 relative w-full md:w-1/4">
               <div className="w-16 h-16 rounded-full bg-blue-700 text-white flex items-center justify-center text-2xl font-bold mx-auto">4</div>
               <h3 className="text-xl font-semibold mt-4 mb-2">Funding</h3>
               <p className="text-gray-600">Get your funds disbursed and ongoing support from our team.</p>
@@ -109,12 +118,12 @@ const Services: React.FC = () => {
           </div>
         </div>
       </section>
-      
+      < LoanCalculator />
       {/* Testimonials */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-blue-900 mb-10 text-center">Client Success Stories</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-md p-6 relative">
               <div className="text-5xl text-blue-200 absolute top-4 left-4">"</div>
@@ -125,9 +134,9 @@ const Services: React.FC = () => {
                 <div className="flex items-center">
                   <div className="mr-4">
                     <div className="w-12 h-12 rounded-full overflow-hidden">
-                      <img 
+                      <img
                         src="https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                        alt="Maria Garcia" 
+                        alt="Maria Garcia"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -139,7 +148,7 @@ const Services: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white rounded-lg shadow-md p-6 relative">
               <div className="text-5xl text-blue-200 absolute top-4 left-4">"</div>
               <div className="pt-6">
@@ -149,9 +158,9 @@ const Services: React.FC = () => {
                 <div className="flex items-center">
                   <div className="mr-4">
                     <div className="w-12 h-12 rounded-full overflow-hidden">
-                      <img 
+                      <img
                         src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                        alt="John Mwangi" 
+                        alt="John Mwangi"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -163,7 +172,7 @@ const Services: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             <div className="bg-white rounded-lg shadow-md p-6 relative">
               <div className="text-5xl text-blue-200 absolute top-4 left-4">"</div>
               <div className="pt-6">
@@ -173,9 +182,9 @@ const Services: React.FC = () => {
                 <div className="flex items-center">
                   <div className="mr-4">
                     <div className="w-12 h-12 rounded-full overflow-hidden">
-                      <img 
+                      <img
                         src="https://images.pexels.com/photos/3785424/pexels-photo-3785424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                        alt="Priya Sharma" 
+                        alt="Priya Sharma"
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -189,10 +198,10 @@ const Services: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
-      
+      </section> */}
+
       {/* CTA Section */}
-      <section className="py-16 bg-blue-700 text-white">
+      {/* <section className="py-16 bg-blue-700 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
           <p className="text-xl max-w-3xl mx-auto mb-8">
@@ -202,7 +211,7 @@ const Services: React.FC = () => {
             Contact Our Team
           </button>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

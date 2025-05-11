@@ -11,13 +11,16 @@ import WhyUsSection from '../components/WhyUsSection';
 import { services } from '../data/services';
 import { blogPosts } from '../data/blogPosts';
 import Servicess from '../components/Servicess';
+
 const Home: React.FC = () => {
   const { t } = useLanguage();
 
   return (
     <div className="flex flex-col min-h-screen">
-      <Carousel />
-      <WhyUsSection />
+      {/* <Carousel /> */}
+      {/* <WhyUsSection /> */}
+      {/* 
+
       <section className="py-16 bg-white bg-sky-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -49,9 +52,17 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
-      <FactStats />
-      <Servicess />
+
+       */}
+
+
+
+
+      {/* <FactStats /> */}
+      {/* <Servicess /> */}
       {/* Services Section */}
+      {/* 
+
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -80,7 +91,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
-
+ */}
 
       {/* Blog Section */}
 

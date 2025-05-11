@@ -226,8 +226,20 @@ export const translations = {
         imageUrl: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         author: 'Robert Kimani'
       }
-    ],
 
+    ],
+    title: 'Loan Calculator',
+    amount: 'Loan Amount (ETB)',
+    interest: 'Annual Interest Rate (%)',
+    term: 'Loan Term (Years)',
+    calculate: 'Calculate',
+    monthlyPayment: 'Estimated Monthly Payment',
+    schedule: 'Repayment Schedule',
+    month: 'Month',
+    payment: 'Payment',
+    interestPaid: 'Interest',
+    principalPaid: 'Principal',
+    balance: 'Balance',
 
     // Chatbot
     chatbotTitle: 'How can we help you?',
