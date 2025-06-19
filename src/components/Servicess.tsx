@@ -13,18 +13,18 @@ const Servicess: React.FC = () => {
 
     const features = [
         {
-            icon: <img src={Saving} alt="Saving" className="w-30 h-30 mx-auto full" />,
+            icon: <img src={Saving} alt="Saving" className="w-30 h-30 mx-auto p-2 rounded-t-2xl transition-all duration-300 hover:scale-105" />,
             title: t('service_title1'),
             paragraph: t('service1_paragraph1'),
         },
         {
 
-            icon: <img src={loan} alt="Saving" className="w-30 h-30 mx-auto " />,
+            icon: <img src={loan} alt="Saving" className="w-30 h-30 mx-auto p-1 rounded-t-2xl " />,
             title: t('service2_title'),
             paragraph: t('service2_paragraph'),
         },
         {
-            icon: <img src={ifb} alt="Saving" className="w-30 h-30 mx-auto " />,
+            icon: <img src={ifb} alt="Saving" className="w-30 h-30 mx-auto  p-1 rounded-t-2xl" />,
             title: t('service3_title'),
             paragraph: t('service3_paragraph'),
         },
@@ -32,9 +32,9 @@ const Servicess: React.FC = () => {
 
     return (
         <>
-            <section className="bg-gradient-to-b from-blue-50 to-orange py-12">
-                <div className="container mx-auto px-4">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <section className="bg-gradient-to-b from-blue-50 to-orange py-12 ">
+                <div className="container mx-auto px-4 ">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 ">
                         {features.map((item, index) => (
                             <motion.div
                                 key={index}
@@ -44,14 +44,14 @@ const Servicess: React.FC = () => {
                                 viewport={{ once: true }}
                                 className="bg-white border border-blue-200 shadow-md hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300  rounded-2xl text-center"
                             >
-                                <div className="flex justify-center mb-4">
-                                    <div className='flex w-full'>{item.icon}</div>
+                                <div className="flex justify-center">
+                                    <div className='flex w-full rounded '>{item.icon}</div>
                                     <div className="hover:scale-110 transition-transform duration-300">
                                         <div className="text-white text-2xl"></div>
                                     </div>
                                 </div>
-                                <h3 className="text-lg font-semibold text-blue-800 mb-2 ">{item.title}</h3>
-                                <p className="text-gray-600 text-sm leading-relaxed">{item.paragraph}</p>
+                                <h3 className="text-lg font-semibold text-blue-800  ">{item.title}</h3>
+                                <p className="text-gray-600 text-sm leading-relaxed p-3  ">{item.paragraph}</p>
                             </motion.div>
                         ))}
                     </div>

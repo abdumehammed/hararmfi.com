@@ -1,12 +1,6 @@
 import { LanguageOption } from '../types';
 import { Service } from '../types';
-import { 
-  BarChart4, 
-  PiggyBank, 
-  Landmark, 
-  BadgePercent, 
-  HandCoins, 
-  UsersRound 
+import {BarChart4,PiggyBank,Landmark,BadgePercent,HandCoins,UsersRound 
 } from 'lucide-react';
 
 export const languages: LanguageOption[] = [
@@ -30,15 +24,10 @@ export const translations = {
     contact: 'Contact',
 
     // Home page
-    slideTitle1: 'Financial Solutions for a Better Future',
-    slideSubtitle1: 'Empowering communities through accessible financial services',
-    slideTitle2: '',
-    slideSubtitle2: '',
-    slideTitle3: '',
-    slideSubtitle3: '',
     aboutus: 'About Us',
-    aboutusparagraph1: 'At Harar Microfinance Institution S.C., we are committed to fostering economic growth and financial sustainability. Our work focuses on empowering individuals in both rural and urban communities by providing them with essential and accessible financial services. By targeting the productive poor, we enable our clients to achieve financial independence, improve their quality of life, and actively contribute to the development of their communities.',
-    aboutusparagraph2: 'We believe that inclusive finance is a powerful tool for transformation. Through trust-based relationships, tailored financial solutions, and community-centered services, we are helping to build a more resilient local economy. While our primary operations are based in the Harari Region, we are continually exploring ways to expand our impact and bring long-term value to more people across Ethiopia',
+    aboutusparagraph1: 'Harar Credit and Saving Institution S.C was established in 2005 G.C. with the mission of supporting micro and small-scale businesses in Harari Regional State. Founded by Harari Regional State along with seven other visionary shareholders, the institution started with an initial capital of 1,000,000 birr and officially began operations in September 2005',
+    aboutusparagraph2: 'Since its inception, the institution has expanded its services, opening three branch offices. Initially offering two loan products Group Loans and MSE Loans the institution now provides more than Twenty one diversified loan products, responding to the growing demand for its services.',
+    aboutusparagraph3: 'We have 18 years of operation and a well-established customer base of more than 14,160 active customers. We manages a substantial asset value of 429 million and boasts a paid-up capital of 302 million. Our company operates with a skilled workforce of over 45 employees across 4 branches, contributing to its continued growth and success',
     more:'More',
     /* Features section*/
     whyus:'Why Us',
@@ -46,10 +35,9 @@ export const translations = {
     feature1_paragraph:'We are a trusted institute with a proven track record of providing reliable financial services to our clients. Our commitment to transparency and integrity ensures that you can trust us with your financial needs.',
     feature2_title:' Operational Excellence',
     feature2_paragraph:' We deliver financial solutions with speed and ease. Our streamlined processes ensure that you receive prompt, hassle-free service tailored to your needs, making your financial management straightforward and accessible.',
-    feature3_title:' Trusted Company',
-    feature3_paragraph:'We are a trusted institute with a proven track record of providing reliable financial services to our clients. Our commitment to transparency and integrity ensures that you can trust us with your financial needs.',
-
-    feature4_title:' Modern Technology',
+    feature3_title:' Flexible Plans',
+    feature3_paragraph:'We offer diversified financial plans tailored to the diverse needs of our customers. As a trusted institution, and we are committed to helping clients achieve self-sustainability with solutions that adapt to their unique circumstances.',
+    feature4_title:' Modern Technology', 
     feature4_paragraph:'we utilize the latest core banking Solution which allows us to serve you with innovative and efficient way. Our modern tools and systems ensure seamless service to enhance your financial experience.',
 
 
@@ -97,7 +85,7 @@ export const translations = {
     contactUs:'Contact Us',
     location:'Charleville Ave., Harar',
     Country:'Ethiopia',
-    copyright: 'Harar Microfinance Institution. All rights reserved.',
+    copyright: ' Harar Microfinance Institution. All rights reserved.',
     footerparagraph1:'Empowering communities through accessible financial services since 2005 ',
     workingHours:'Working Hours',
     mondayToFriday:' Monday To Friday',
@@ -252,7 +240,7 @@ export const translations = {
 
   // FactsStats English
 
-  atAGlance: 'At a Glance',
+  // atAGlance: 'At a Glance',
   labelAactiveCustomers: 'Active Customers',
   valueAactiveCustomers: 14160 ,
   AactiveCustomerssuffix: ' +',
@@ -271,40 +259,51 @@ export const translations = {
   },
   am: {
     //institution's Name
-    institutionTitle: 'ህረር ብድርና ቁጠባ',
+    institutionTitle: 'ሐረር ብድርና ቁጠባ',
     institutionTitle2: 'ተቋም ',
+    
     // Navigation
     home: 'መነሻ',
-    about: 'ስለእኛ',
+    about: 'ስለ እኛ',
     services: 'አገልግሎቶች',
-    blog: 'ብሎግ',
+    blog: 'ዜና',
     contact: 'ያግኙን',
 
     // Home page
-    slideTitle1: 'TRANSLATION NEEDED',
-    slideSubtitle1: 'TRANSLATION NEEDED',
-    slideTitle2: 'TRANSLATION NEEDED',
-    slideSubtitle2: 'TRANSLATION NEEDED',
-    slideTitle3: 'TRANSLATION NEEDED',
-    slideSubtitle3: 'TRANSLATION NEEDED',
-    aboutus: 'TRANSLATION NEEDED',
-    aboutusparagraph1: 'TRANSLATION NEEDED',
-    aboutusparagraph2: 'TRANSLATION NEEDED',
-    more:'Translation Needed',
+    aboutus: 'ስለ  እኛ',
+    aboutusparagraph1: 'የሐረር ብድርና ቁጠባ ተቋም አማ በ ፩፱፱፯ አም በጥቃቅንና አነስተኛ ስራዎች ላይ ለተሰማሩ የክልሉ ና የ አካባቢው የህብረተሰብ ክፍሎችን በፋይናንስ ለማገዝ በማለም በ ክልሉ መንግስት እና በ ፯ ባለ ራዕይ ሼርሆልደሮች  የተቋቋመ ተቋም ነው ። ተቋማችን በ ፩ ሚ ብር መነሻ ካፒታል ለህብረተሰቡ ተደራሽ የሆነ  የፋይናንስ አማራጭ በማቅረብ በ ፩፱፱፯ ስራውን ሀ ብሎ ጀምሯል ',
+    aboutusparagraph2: 'ከተቋቋመበት ጊዜ ኣንስቶ ትቋሙ ኣገልግሎቱንና ተደራሽነቱን በማስፋት ተጨማኢ ፫ ቅርንጫፎጭን መክፈት ችሏል ።በተጨማሪም ተቋሙ ይሰጣቸው ከነበሩ የማህበር ና የጥቃቅንና አነስተኛ ብድሮች ተጨማሪ ሌሎች የብደርና ተቀማጭ አገልግሎቶችን በማከል ከሀያ አንድ በላይ አገልግሎቶችን በማቅረብ ላይ ይገኛል',
+    more:'ተጨማሪ',
+    aboutusparagraph3: 'የሐረር ብድርና ቁጠባ ተቋም አማ በ ፩፱፱፯ አም በጥቃቅንና አነስተኛ ስራዎች ላይ ለተሰማሩ የክልሉ ና የ አካባቢው የህብረተሰብ ክፍሎችን በፋይናንስ ለማገዝ በማለም በ ክልሉ መንግስት እና በ ፯ ባለ ራዕይ ሼርሆልደሮች  የተቋቋመ ተቋም ነው ። ተቋማችን በ ፩ ሚ ብር መነሻ ካፒታል ለህብረተሰቡ ተደራሽ የሆነ  የፋይናንስ አማራጭ በማቅረብ በ ፩፱፱፯ ስራውን ሀ ብሎ ጀምሯል ',
+
+      /* Features section*/
+    whyus:'ለምን ይመርጡናል',
+    feature1_title:' ታማኝ ተቋም',
+    feature1_paragraph:'ለደንበኞቻችን አስተማማኝ የፋይናንስ አገልግሎት በመስጠት ረገድ የተረጋገጠ ልምድ ያለን ታማኝ ተቋም ስለሆንን እንዲሁም ለተለያዩ የፋይናንስ ፍላጎቶ አስተማማኝ የሆነ በግልጽነት እና ታማኝነት ላይ የተመሰረተ ግልጋሎቶችን ስለምንሰጥ',
+    feature2_title:'የላቀ አገልግሎት',
+    feature2_paragraph:'ያልወሳሰበ ፣ ተደራሽ ፣ ቀላል እና ፈጣን  የፋይናንስ አገልግሎቶችን  እናቀርባለን።የፋይናንስ አገልግሎትን በፍጥነት እና በቀላል እናቀርባለን። ያልተወሳሰበና  የተስተካከሉ የፋይናንስ  ሂደቶች በመከተል ለፍላጎቶችዎ  ፈጣን፣ ቀላል ና ምቹ አገልግሎችን እንዲያገኙ በማድረግ የፋይናንስ አስተዳደርን ቀጥተኛ እና ተደራሽ በማድረግ',
+    feature3_title:' የተለያዩ አማራጮች',
+    feature3_paragraph:'በደንበኞች ምርጫ ላይ ተመርኩዘን የተለያዩ ተለዋዋጭ የፋይናንስ እቅዶችን  እናቀርባለን።የተለያዩ የፋይናንስ  አማራጮችን  በማዘጋጀት ከደንበኞች የግል ሁኔታ ጋር  የሚጣጣሙ መፍትሄዎችን በመስጠት ደንበኞቻችን በማቋቋም ተደራሽ የሆነ የፋይናንስ ስርዐት ኢንዲኖር በማድረግ ላይ ስለምንገኝ',    
+    feature4_title:' ዘመናዊ ቴክኖሎጂ',
+    feature4_paragraph:'ዘመኑ በደረሰበት የ ኮር ባንኪንግ ቴክኖሎጂ በመታገዝ ደንበኞቻችንን ቀልጣፋና አስተማማን በሆነ መንገደ በማገልገል ላይ እንገኛለን። የምንጠቀማቸው  ዘመናዊ መሳሪያዎች እና ሲስተሞች የእርስዎን የፋይናንስ ተሞክሮ ለማሻሻል እና እንከን አልባ አገልግሎትን ለመስጠት ያስችሉናል።',
+
+
     // Services section
+
     servicesTitle: 'አገልግሎቶች',
-    servicesSubtitle: 'የገንዘብ መፍትሔዎች ወደ ወደፊት ይመራሉ', // Review this translation
-    servicesDescription: 'የገንዘብ መፍትሔዎች ወደ ወደፊት ይመራሉ', // Review this translation
-    service1: 'TRANSLATION NEEDED',
-    service2: 'TRANSLATION NEEDED',
-    service3: 'TRANSLATION NEEDED',
-    service4: 'TRANSLATION NEEDED',
-    service5: 'TRANSLATION NEEDED',
-    service6: 'TRANSLATION NEEDED',
-    service7: 'TRANSLATION NEEDED',
+    servicesSubtitle: ' ፍላጎቶን የተመረኮዙ የተለያዩ የፋይናንስ አማራጮች',
+    service_title1:' የቁጠባ አገልግሎቶች',
+    service1_paragraph1:'የተለያዩ የቁጠባ አይነቶችን እናቀርባለን ። የቁጠባ አይነቶቻችን የደንበኞቻችንን የተጠቃሚነት የሚያረጋግጥ እንዲሁም ለፍላጎታቸው የተሰናዳ ነው ። በምናቀርበው ተወዳዳሪ የወለድ መጠን መሰረት ቁጠባዎን በፈለጉት መልኩ በረጅምም ሆነ በ አጭር ጊዜ ማስቀመጥ ያስችሎታል',
+
+    service2_title:' የብድር አገልግሎቶች',
+    service2_paragraph:' ለርሶ የንግድ ስራ እንዲሁም የግል ፍላጎት ተስማሚ የሆኑ የብድር አማራጮችን እናቀርባለን። በተለያዩ የክፍያ አማራጮችን በማቅረብ የርሶን እድገት ለመደገፍ እንሰራለን::',
+
+    service3_title:' ከወለድ ነጻ አገልግሎቶች',
+    service3_paragraph:'ከወለድ ነጻ  እንዲሁም የሸሪዓ መርህ  የተከተሉ የተለያዩ የቁጠባና የብድር አማራጮችን እናቀርባለን ። ወለድ የማይጠቀሙ ደንበኞችን ያማከለ ልዩ ከወለድ ነጻ ግልጋሎቶችን እኛ ጋር ያገኛሉ::',
+
 
     // About section
-    aboutTitle: 'ስለእኛ',
+    aboutTitle: 'ስለ እኛ',
     aboutSubtitle: 'TRANSLATION NEEDED',
     ourMission: 'TRANSLATION NEEDED',
     missionText: 'TRANSLATION NEEDED',
@@ -326,11 +325,20 @@ export const translations = {
     message: 'TRANSLATION NEEDED',
     send: 'TRANSLATION NEEDED',
 
-    // Footer
-    copyright: 'TRANSLATION NEEDED',
-    privacy: 'TRANSLATION NEEDED',
-    terms: 'TRANSLATION NEEDED',
+
+  // Footer
+    quickLinks:'ወደ',
+    contactUs:'ያግኙን',
+    location:'Charleville Ave., ሐረር ',
+    Country:'ኢትዮጵያ',
+    copyright: ' ሐረር ብድርና ቁጠባ ተቋም ። መብቱ በህግ የተጠበቀ ነው። ',
     footerparagraph1:'Empowering communities through accessible financial services since 2005 ',
+    workingHours:'የስራ ሰዓት',
+    mondayToFriday:' ከሰኞ እስከ አርብ',
+    morningHours:'ጠዋት: 2:00  – 6:00', 
+    afternoonHours:'ከሰአት: 8:00  – 11:30',
+    Saturday:' ቅዳሜ',
+    saturdayHours:'ጠዋት: 2:00 – 6:00 ',
 
 
     // Chatbot
@@ -375,8 +383,8 @@ export const translations = {
     slideSubtitle2: '',
     slideTitle3: '',
     slideSubtitle3: '',
-    aboutus: 'TRANSLATION NEEDED',
-    aboutusparagraph1: 'TRANSLATION NEEDED',
+    aboutus: 'ስለ እኛ',
+    aboutusparagraph1: 'የሐረር የማይክሮ ፋይናንስ ተቋም አማ ፣የኢኮኖሚ ዕድገትን እና የፋይናንስ ዘላቂነትን ለማጎልበት ቁርጠኛ የሆነ ተቋም ነው ስለሆነም ይህን ለማሳለጥ  በገጠርም ሆነ በከተማ ውስጥ ያሉ ግለሰቦች እና ኢንተርፕራይዞች አስፈላጊ እና ተደራሽ የሆነ የፋይናንስ አገልግሎት በመስጠት  ላይ ነው።ዝቅተኛ ገቢ ባላቸው የህብረተሰብ ክፍሎች ላይ በማነጣጠር ደንበኞቻችን የፋይናንስ ነጻነት እንዲያረጋግጡ ና  የኑሮ ሁኔታቸውን በማሻሻል ለማህበረሰባቸው ልማት በንቃት እንዲሳተፉ እናደርጋለን',
     aboutusparagraph2: 'TRANSLATION NEEDED',
      more:'Translation needed',
     // Services section

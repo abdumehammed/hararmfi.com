@@ -37,7 +37,7 @@ const WhyUsSection: React.FC = () => {
 
     return (
         <>
-            <section className="bg-gradient-to-b from-blue-0 to-white py-12">
+            <section className="bg-slate-50 py-12">
                     <h2 className="text-3xl text-center font-bold text-blue-900 mb-4 "> {t('whyus')}   </h2>
 
                 <div className="container mx-auto p-8">

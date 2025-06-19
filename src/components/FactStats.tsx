@@ -44,7 +44,7 @@ const FactStats: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gradient-to-b from-white to-blue-50 py-16">
+    <section className="bg-gradient-to-b from-white to-blue-50 py-10">
       <div className="container mx-auto px-4 text-center">
         <motion.h2
           className="text-3xl md:text-4xl font-bold mb-12 text-gray-800"
@@ -52,7 +52,7 @@ const FactStats: React.FC = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          {t('atAGlance') || 'At a Glance'}
+          {/* {t('atAGlance') || 'At a Glance'} */}
         </motion.h2>
 
         {/* Desktop Grid */}

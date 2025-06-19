@@ -80,7 +80,7 @@ const Footer: React.FC = () => {
                 <MapPin size={18} className="mt-1 mr-2 flex-shrink-0" />
                 <span>
                   {t('location') || 'Charleville Ave. ,Harar'}:<br />
-                  {t('Ethiopia') || 'Ethiopia'}
+                  {t('Country') || 'Ethiopia'}
 
                 </span>
               </li>
