@@ -1,0 +1,16 @@
+[33mc948ebc[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{0}: checkout: moving from main to origin
+[33mc948ebc[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m HEAD@{1}: merge origin/main: Fast-forward
+[33mbf21482[m HEAD@{2}: checkout: moving from master to main
+[33mbd3f13a[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m HEAD@{3}: commit: hjk
+[33m06e0f2b[m HEAD@{4}: commit: updated gitignore
+[33mdaa8629[m HEAD@{5}: commit: additiolnal info
+[33m7eae2c9[m HEAD@{6}: pull: Fast-forward
+[33m07e793e[m HEAD@{7}: commit: code modifications
+[33m2ff0b0b[m HEAD@{8}: commit: code modifications
+[33m1ef242b[m HEAD@{9}: pull --no-rebase: Merge made by the 'ort' strategy.
+[33mbbe6a32[m HEAD@{10}: commit: ;
+[33m7258800[m HEAD@{11}: commit: ;
+[33m22a2aba[m HEAD@{12}: checkout: moving from master to master
+[33m22a2aba[m HEAD@{13}: pull --tags origin master: Fast-forward
+[33m2239fa7[m HEAD@{14}: checkout: moving from main to master
+[33mbf21482[m HEAD@{15}: clone: from https://github.com/abdumehammed/hararmfi.com.git
