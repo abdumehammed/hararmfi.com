@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, Send, X, ChevronUp, ArrowLeft } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import { chatbotOptions } from '../data/chatbotOptions';
+import { getChatbotOptions } from '../data/chatbotOptions';
 
 interface Message {
   id: string;
@@ -17,7 +17,10 @@ const Chatbot: React.FC = () => {
   const [showMenu, setShowMenu] = useState(true);
   const [conversationHistory, setConversationHistory] = useState<string[]>([]);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
+
+  // Get chatbot options based on current language
+  const chatbotOptions = getChatbotOptions(language);
 
   // Initialize chat with welcome message
   useEffect(() => {

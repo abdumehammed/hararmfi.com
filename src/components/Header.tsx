@@ -4,8 +4,6 @@ import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import Topbar from './topbar';
 
-
-
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageMenuOpen, setIsLanguageMenuOpen] = useState(false);
@@ -45,7 +43,6 @@ const Header: React.FC = () => {
             </Link>
           </div>
 
-
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link
@@ -83,10 +80,11 @@ const Header: React.FC = () => {
             <div className="relative">
               <button
                 onClick={toggleLanguageMenu}
-                className="flex items-center space-x-1 text-sm font-medium text-gray-700 hover:text-blue-700"
+                className="flex items-center space-x-1 text-sm font-medium text-gray-700 hover:text-blue-700 px-3 py-2 rounded-md border border-gray-300 hover:border-blue-300 transition-colors"
               >
                 <Globe size={18} />
-                <span>{currentLanguage.flag}</span>
+                <span className="text-lg">{currentLanguage.flag}</span>
+                <span className="hidden sm:inline">{currentLanguage.name}</span>
               </button>
 
               {isLanguageMenuOpen && (
@@ -96,10 +94,11 @@ const Header: React.FC = () => {
                       <button
                         key={lang.code}
                         onClick={() => handleLanguageChange(lang.code)}
-                        className={`block px-4 py-2 text-sm text-left w-full hover:bg-gray-100 ${currentLanguage.code === lang.code ? 'bg-gray-50 text-blue-700' : 'text-gray-700'
-                          }`}
+                        className={`block px-4 py-2 text-sm text-left w-full hover:bg-gray-100 transition-colors ${
+                          currentLanguage.code === lang.code ? 'bg-blue-50 text-blue-700' : 'text-gray-700'
+                        }`}
                       >
-                        <span className="mr-2">{lang.flag}</span>
+                        <span className="mr-2 text-lg">{lang.flag}</span>
                         {lang.name}
                       </button>
                     ))}
@@ -112,13 +111,34 @@ const Header: React.FC = () => {
           {/* Mobile Menu Button */}
           <div className="flex md:hidden items-center space-x-4">
             {/* Language Selector - Mobile */}
-            <button
-              onClick={toggleLanguageMenu}
-              className="flex items-center text-gray-700"
-            >
-              <Globe size={20} />
-              <span className="ml-1">{currentLanguage.flag}</span>
-            </button>
+            <div className="relative">
+              <button
+                onClick={toggleLanguageMenu}
+                className="flex items-center text-gray-700 px-2 py-1 rounded border border-gray-300"
+              >
+                <Globe size={16} />
+                <span className="ml-1 text-sm">{currentLanguage.flag}</span>
+              </button>
+
+              {isLanguageMenuOpen && (
+                <div className="absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 z-50">
+                  <div className="py-1">
+                    {languageOptions.map(lang => (
+                      <button
+                        key={lang.code}
+                        onClick={() => handleLanguageChange(lang.code)}
+                        className={`block px-3 py-2 text-sm text-left w-full hover:bg-gray-100 ${
+                          currentLanguage.code === lang.code ? 'bg-blue-50 text-blue-700' : 'text-gray-700'
+                        }`}
+                      >
+                        <span className="mr-2">{lang.flag}</span>
+                        {lang.name}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
 
             <button
               onClick={toggleMenu}
@@ -169,25 +189,6 @@ const Header: React.FC = () => {
                 {t('contact')}
               </Link>
             </nav>
-          </div>
-        )}
-
-        {/* Mobile Language Menu */}
-        {isLanguageMenuOpen && (
-          <div className="md:hidden bg-white border-t py-2 px-4 shadow-lg animate-fadeIn">
-            <div className="flex flex-col space-y-2">
-              {languageOptions.map(lang => (
-                <button
-                  key={lang.code}
-                  onClick={() => handleLanguageChange(lang.code)}
-                  className={`py-2 text-left flex items-center ${currentLanguage.code === lang.code ? 'text-blue-700' : 'text-gray-700'
-                    }`}
-                >
-                  <span className="mr-2">{lang.flag}</span>
-                  {lang.name}
-                </button>
-              ))}
-            </div>
           </div>
         )}
       </header>
