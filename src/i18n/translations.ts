@@ -1,18 +1,15 @@
 import { LanguageOption } from '../types';
-import { Service } from '../types';
-import {BarChart4,PiggyBank,Landmark,BadgePercent,HandCoins,UsersRound 
-} from 'lucide-react';
 
 export const languages: LanguageOption[] = [
-  { code: 'en', name: 'English', flag: 'Us' },
-  { code: 'am', name: 'አማርኛ', flag: 'አማ' },
-  { code: 'om', name: 'Afaan Oromoo', flag: 'Or' },
-  { code: 'hr', name: 'Harari', flag: 'ህረ' },
+  { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: 'am', name: 'አማርኛ', flag: '🇪🇹' },
+  { code: 'om', name: 'Afaan Oromoo', flag: '🇪🇹' },
+  { code: 'hr', name: 'Harari', flag: '🇪🇹' },
 ];
 
 export const translations = {
   en: {
-    //institution's Name
+    // Institution's Name
     institutionTitle: 'Harar Microfinance',
     institutionTitle2: 'Institute',
 
@@ -28,33 +25,42 @@ export const translations = {
     aboutusparagraph1: 'Harar Credit and Saving Institution S.C was established in 2005 G.C. with the mission of supporting micro and small-scale businesses in Harari Regional State. Founded by Harari Regional State along with seven other visionary shareholders, the institution started with an initial capital of 1,000,000 birr and officially began operations in September 2005',
     aboutusparagraph2: 'Since its inception, the institution has expanded its services, opening three branch offices. Initially offering two loan products Group Loans and MSE Loans the institution now provides more than Twenty one diversified loan products, responding to the growing demand for its services.',
     aboutusparagraph3: 'We have 18 years of operation and a well-established customer base of more than 14,160 active customers. We manages a substantial asset value of 429 million and boasts a paid-up capital of 302 million. Our company operates with a skilled workforce of over 45 employees across 4 branches, contributing to its continued growth and success',
-    more:'More',
-    /* Features section*/
-    whyus:'Why Us',
-    feature1_title:' Trusted Company',
-    feature1_paragraph:'We are a trusted institute with a proven track record of providing reliable financial services to our clients. Our commitment to transparency and integrity ensures that you can trust us with your financial needs.',
-    feature2_title:' Operational Excellence',
-    feature2_paragraph:' We deliver financial solutions with speed and ease. Our streamlined processes ensure that you receive prompt, hassle-free service tailored to your needs, making your financial management straightforward and accessible.',
-    feature3_title:' Flexible Plans',
-    feature3_paragraph:'We offer diversified financial plans tailored to the diverse needs of our customers. As a trusted institution, and we are committed to helping clients achieve self-sustainability with solutions that adapt to their unique circumstances.',
-    feature4_title:' Modern Technology', 
-    feature4_paragraph:'we utilize the latest core banking Solution which allows us to serve you with innovative and efficient way. Our modern tools and systems ensure seamless service to enhance your financial experience.',
+    more: 'More',
 
+    // Features section
+    whyus: 'Why Choose Us',
+    feature1_title: 'Trusted Company',
+    feature1_paragraph: 'We are a trusted institute with a proven track record of providing reliable financial services to our clients. Our commitment to transparency and integrity ensures that you can trust us with your financial needs.',
+    feature2_title: 'Operational Excellence',
+    feature2_paragraph: 'We deliver financial solutions with speed and ease. Our streamlined processes ensure that you receive prompt, hassle-free service tailored to your needs, making your financial management straightforward and accessible.',
+    feature3_title: 'Flexible Plans',
+    feature3_paragraph: 'We offer diversified financial plans tailored to the diverse needs of our customers. As a trusted institution, and we are committed to helping clients achieve self-sustainability with solutions that adapt to their unique circumstances.',
+    feature4_title: 'Modern Technology',
+    feature4_paragraph: 'We utilize the latest core banking Solution which allows us to serve you with innovative and efficient way. Our modern tools and systems ensure seamless service to enhance your financial experience.',
 
+    // Services
     servicesTitle: 'Products & Services',
     servicesSubtitle: 'Financial solutions tailored to your needs',
-    service_title1:' Saving Products',
-    service1_paragraph1:'we offer different types of savings products designed to help clients build financial security with flexible terms and competitive interest rates. Whether for short-term needs or long-term goal',
+    service_title1: 'Saving Products',
+    service1_paragraph1: 'We offer different types of savings products designed to help clients build financial security with flexible terms and competitive interest rates. Whether for short-term needs or long-term goals',
+    service2_title: 'Loan Products',
+    service2_paragraph: 'We provide tailored loan solutions to empower businesses and individuals with flexible repayment options and competitive rates. Our loans are designed to support your growth.',
+    service3_title: 'Islamic Products',
+    service3_paragraph: 'Our Sharia-compliant products ensure ethical and halal methods for both saving and loans by offering interest-free solutions to meet your financial needs while strictly adhering to Islamic law.',
 
-    service2_title:' Loan Products',
-    service2_paragraph:' We provide tailored loan solutions to empower businesses and individuals with flexible repayment options and competitive rates. Our loans are designed to support your growth.',
-
-    service3_title:' Islamic Products',
-    service3_paragraph:'Our Sharia-compliant products ensure ethical and halal methods for both saving and loans by offering interest-free solutions to meet your financial needs while strictly adhering to Islamic law.',
-
-    service4_title:' Modern Technology',
-    service4_paragraph:'we utilize the latest core banking Solution which allows us to serve you with innovative and efficient way. Our modern tools and systems ensure seamless service to enhance your financial experience.',
-    // Services section
+    // Service Cards
+    Microloans: 'Microloans',
+    MicroloansDesc: 'Small loans designed to help entrepreneurs start or grow their businesses and individuals meet their financial needs.',
+    'Savings Accounts': 'Savings Accounts',
+    'Savings AccountsDesc': 'Secure savings accounts with competitive interest rates to help you build financial security for the future.',
+    'Financial Education': 'Financial Education',
+    'Financial EducationDesc': 'Workshops and resources designed to improve financial literacy and money management skills.',
+    'Group Lending': 'Group Lending',
+    'Group LendingDesc': 'Collaborative lending programs that leverage community bonds to provide access to capital.',
+    'Insurance Products': 'Insurance Products',
+    'Insurance ProductsDesc': 'Affordable insurance options to protect your family, health, and business against unexpected events.',
+    'Credit Building': 'Credit Building',
+    'Credit BuildingDesc': 'Programs designed to help establish and improve your credit history for better financial opportunities.',
 
     // About section
     aboutTitle: 'About Us',
@@ -64,7 +70,6 @@ export const translations = {
     ourVision: 'Our Vision',
     visionText: 'A world where everyone has access to fair and transparent financial services to improve their lives and communities.',
     ourValues: 'Our Values',
-
 
     // Blog section
     blogTitle: 'Latest News',
@@ -81,141 +86,20 @@ export const translations = {
     send: 'Send Message',
 
     // Footer
-    quickLinks:'Quick Links',
-    contactUs:'Contact Us',
-    location:'Charleville Ave., Harar',
-    Country:'Ethiopia',
+    quickLinks: 'Quick Links',
+    contactUs: 'Contact Us',
+    location: 'Charleville Ave., Harar',
+    Country: 'Ethiopia',
     copyright: ' Harar Microfinance Institution. All rights reserved.',
-    footerparagraph1:'Empowering communities through accessible financial services since 2005 ',
-    workingHours:'Working Hours',
-    mondayToFriday:' Monday To Friday',
-    morningHours:'Morning: 8:00 AM – 12:00 PM', 
-    afternoonHours:'Afternoon: 2:00 PM – 5:30 PM',
-    Saturday:' Saturday',
-    saturdayHours:'Morning: 8:00 AM – 12:00 PM', 
-    
-    servicests:[
-      {
-        id: '1',
-        title: 'Microloans',
-        description: 'Small loans designed to help entrepreneurs start or grow their businesses and individuals meet their financial needs.',
-        icon: 'HandCoins'
-      },
-      {
-        id: '2',
-        title: 'Savings Accounts',
-        description: 'Secure savings accounts with competitive interest rates to help you build financial security for the future.',
-        icon: 'PiggyBank'
-      },
-      {
-        id: '3',
-        title: 'Financial Education',
-        description: 'Workshops and resources designed to improve financial literacy and money management skills.',
-        icon: 'BarChart4'
-      },
-      {
-        id: '4',
-        title: 'Group Lending',
-        description: 'Collaborative lending programs that leverage community bonds to provide access to capital.',
-        icon: 'UsersRound'
-      },
-      {
-        id: '5',
-        title: 'Insurance Products',
-        description: 'Affordable insurance options to protect your family, health, and business against unexpected events.',
-        icon: 'Landmark'
-      },
-      {
-        id: '6',
-        title: 'Credit Building',
-        description: 'Programs designed to help establish and improve your credit history for better financial opportunities.',
-        icon: 'BadgePercent'
-      }
-    ],
-    // Blog posts
-    BlogPosts: [
-      {
-        id: '1',
-        title: 'New Microloan Program Launches for Rural Entrepreneurs',
-        slug: 'new-microloan-program-launches',
-        excerpt: 'Our institution is proud to announce a new microloan program specifically designed for rural entrepreneurs.',
-        content: `
-          <p>Our institution is proud to announce a new microloan program specifically designed for rural entrepreneurs. This initiative aims to bridge the financial gap that many rural business owners face when trying to access capital.</p>
-          
-          <p>The program offers loans ranging from $500 to $5,000 with flexible repayment terms and competitive interest rates. What makes this program unique is its focus on agricultural enterprises and rural crafts, recognizing the specific challenges these sectors face.</p>
-          
-          <p>In addition to financial support, loan recipients will have access to business coaching and networking opportunities to help ensure their success. Our team has worked diligently to design a program that addresses not only the financial needs but also the educational and community support aspects necessary for sustainable business growth.</p>
-          
-          <p>Applications for the first round of funding will open next month. Interested entrepreneurs can attend one of our upcoming information sessions to learn more about eligibility requirements and the application process.</p>
-          
-          <p>This program represents our ongoing commitment to financial inclusion and economic development in underserved communities. We believe that by empowering rural entrepreneurs, we can help build stronger, more resilient local economies.</p>
-        `,
-        date: '2025-05-15',
-        imageUrl: 'https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        author: 'Maria Johnson'
-      },
-      {
-        id: '2',
-        title: 'Financial Literacy Workshop Series Reaches 1,000 Participants',
-        slug: 'financial-literacy-workshop-milestone',
-        excerpt: 'Our financial literacy workshop series has now reached the milestone of educating 1,000 community members.',
-        content: `
-          <p>We are thrilled to announce that our financial literacy workshop series has now reached the milestone of educating 1,000 community members. This achievement represents a significant step in our mission to promote financial inclusion and empowerment.</p>
-          
-          <p>The workshop series, which began two years ago, covers essential topics such as budgeting, saving, credit management, and investment basics. Designed to be accessible to people of all educational backgrounds, our workshops use practical examples and interactive exercises to make financial concepts easy to understand and apply.</p>
-          
-          <p>Feedback from participants has been overwhelmingly positive, with many reporting improved confidence in managing their finances and making financial decisions. Several participants have gone on to start savings accounts, establish emergency funds, or launch small businesses with the knowledge gained from our workshops.</p>
-          
-          <p>The success of this program highlights the critical need for financial education in our communities. Moving forward, we plan to expand the workshop series to reach even more individuals and families, with new modules on digital banking, retirement planning, and entrepreneurial finance.</p>
-          
-          <p>We extend our sincere thanks to our dedicated facilitators, community partners, and all the participants who have made this milestone possible. Together, we are building a more financially literate and empowered community.</p>
-        `,
-        date: '2025-04-22',
-        imageUrl: 'https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        author: 'David Chen'
-      },
-      {
-        id: '3',
-        title: 'Impact Study Shows Positive Results of Our Microfinance Programs',
-        slug: 'impact-study-positive-results',
-        excerpt: 'A recent independent study has confirmed the positive impact of our microfinance programs on local communities.',
-        content: `
-          <p>A recent independent study has confirmed the positive impact of our microfinance programs on local communities. The comprehensive assessment, conducted over the past year, evaluated the economic and social outcomes for program participants compared to similar non-participants.</p>
-          
-          <p>The study found that our microfinance clients experienced an average income increase of 27% over the two-year period following their first loan. Additionally, 68% of clients reported being able to invest in education for their children, 55% improved their housing conditions, and 73% felt more confident about their financial future.</p>
-          
-          <p>Beyond the direct economic benefits, the study highlighted several important social impacts. These included increased community engagement, higher rates of female empowerment in households where women were the primary borrowers, and stronger local business networks among program participants.</p>
-          
-          <p>The research also identified areas for improvement, including the need for more targeted support for specific industry sectors and enhanced financial literacy training. We are already working to implement these recommendations in our program updates.</p>
-          
-          <p>We are immensely proud of these results, which validate our approach and the hard work of our clients. This study reinforces our commitment to continually refine our programs to maximize positive impact and address the evolving needs of the communities we serve.</p>
-        `,
-        date: '2025-03-10',
-        imageUrl: 'https://images.pexels.com/photos/7821485/pexels-photo-7821485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        author: 'Sarah Nguyen'
-      },
-      {
-        id: '4',
-        title: 'Partnership with Local Government Expands Access to Financial Services',
-        slug: 'partnership-local-government',
-        excerpt: 'We\'ve established a new partnership with the local government to bring financial services to underserved areas.',
-        content: `
-          <p>We are excited to announce a groundbreaking partnership with the local government aimed at expanding access to financial services in underserved areas. This collaboration will enable us to reach communities that have historically had limited access to banking and credit facilities.</p>
-          
-          <p>The initiative includes the establishment of new service points in five rural districts, mobile banking units that will visit remote villages on a weekly schedule, and a digital banking platform specifically designed for users with limited technological access or experience.</p>
-          
-          <p>This partnership represents a significant commitment from both our institution and the local government to address financial exclusion. The government is providing infrastructure support and regulatory facilitation, while we bring our financial expertise, products, and services tailored to the needs of these communities.</p>
-          
-          <p>Community response to the announcement has been enthusiastic, with local leaders expressing optimism about the potential economic benefits. Many residents in the target areas currently rely on informal financial systems or must travel long distances to access banking services.</p>
-          
-          <p>We believe this model of public-private partnership has the potential to create lasting positive change in financial inclusion. If successful, it could serve as a template for similar initiatives in other regions facing similar challenges.</p>
-        `,
-        date: '2025-02-18',
-        imageUrl: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-        author: 'Robert Kimani'
-      }
+    footerparagraph1: 'Empowering communities through accessible financial services since 2005',
+    workingHours: 'Working Hours',
+    mondayToFriday: 'Monday To Friday',
+    morningHours: 'Morning: 8:00 AM – 12:00 PM',
+    afternoonHours: 'Afternoon: 2:00 PM – 5:30 PM',
+    Saturday: 'Saturday',
+    saturdayHours: 'Morning: 8:00 AM – 12:00 PM',
 
-    ],
+    // Loan Calculator
     title: 'Loan Calculator',
     amount: 'Loan Amount (ETB)',
     interest: 'Annual Interest Rate (%)',
@@ -237,31 +121,41 @@ export const translations = {
     backToMenu: 'Back to menu',
     chatbotDefaultResponse: 'I\'m sorry, I don\'t have information on that specific topic. Please select one of the available options from the menu.',
 
+    // FactsStats
+    labelAactiveCustomers: 'Active Customers',
+    valueAactiveCustomers: 14160,
+    AactiveCustomerssuffix: ' +',
+    labelTotalCapital: 'Paid Capital',
+    valueTotalCapital: 302,
+    TotalCapitalsuffix: ' M +',
+    labelBranches: 'Branches',
+    valueBranches: 4,
+    Branchessuffix: ' +',
+    labelYearsOfOperation: 'Years of Operation',
+    valueYearsOfOperation: 18,
+    suffix: '+',
 
-  // FactsStats English
-
-  // atAGlance: 'At a Glance',
-  labelAactiveCustomers: 'Active Customers',
-  valueAactiveCustomers: 14160 ,
-  AactiveCustomerssuffix: ' +',
-
-  labelTotalCapital: 'Paid Capital ',
-  valueTotalCapital: 302,
-  TotalCapitalsuffix: ' M +',
-
-  labelBranches: 'Branches',
-  valueBranches: 4,
-  Branchessuffix: '  +',
-
-  labelYearsOfOperation: 'Years of Operation',
-  valueYearsOfOperation: 18,
-  suffix: '+',
+    // Additional translations
+    ViewAllServices: 'View All Services',
+    ViewAllArticles: 'View All Articles',
+    learnMore: 'Learn More',
+    getStarted: 'Get Started',
+    slideAlt1: 'Slide 1',
+    slideTitle1: 'Welcome to Harar Microfinance',
+    slideSubtitle1: 'Empowering communities through accessible financial services',
+    slideAlt2: 'Slide 2',
+    slideTitle2: 'Your Financial Partner',
+    slideSubtitle2: 'Building stronger communities together',
+    slideAlt3: 'Slide 3',
+    slideTitle3: 'Innovative Solutions',
+    slideSubtitle3: 'Modern banking for everyone',
   },
+
   am: {
-    //institution's Name
+    // Institution's Name
     institutionTitle: 'ሐረር ብድርና ቁጠባ',
-    institutionTitle2: 'ተቋም ',
-    
+    institutionTitle2: 'ተቋም',
+
     // Navigation
     home: 'መነሻ',
     about: 'ስለ እኛ',
@@ -270,105 +164,141 @@ export const translations = {
     contact: 'ያግኙን',
 
     // Home page
-    aboutus: 'ስለ  እኛ',
-    aboutusparagraph1: 'የሐረር ብድርና ቁጠባ ተቋም አማ በ ፩፱፱፯ አም በጥቃቅንና አነስተኛ ስራዎች ላይ ለተሰማሩ የክልሉ ና የ አካባቢው የህብረተሰብ ክፍሎችን በፋይናንስ ለማገዝ በማለም በ ክልሉ መንግስት እና በ ፯ ባለ ራዕይ ሼርሆልደሮች  የተቋቋመ ተቋም ነው ። ተቋማችን በ ፩ ሚ ብር መነሻ ካፒታል ለህብረተሰቡ ተደራሽ የሆነ  የፋይናንስ አማራጭ በማቅረብ በ ፩፱፱፯ ስራውን ሀ ብሎ ጀምሯል ',
-    aboutusparagraph2: 'ከተቋቋመበት ጊዜ ኣንስቶ ትቋሙ ኣገልግሎቱንና ተደራሽነቱን በማስፋት ተጨማኢ ፫ ቅርንጫፎጭን መክፈት ችሏል ።በተጨማሪም ተቋሙ ይሰጣቸው ከነበሩ የማህበር ና የጥቃቅንና አነስተኛ ብድሮች ተጨማሪ ሌሎች የብደርና ተቀማጭ አገልግሎቶችን በማከል ከሀያ አንድ በላይ አገልግሎቶችን በማቅረብ ላይ ይገኛል',
-    more:'ተጨማሪ',
-    aboutusparagraph3: 'የሐረር ብድርና ቁጠባ ተቋም አማ በ ፩፱፱፯ አም በጥቃቅንና አነስተኛ ስራዎች ላይ ለተሰማሩ የክልሉ ና የ አካባቢው የህብረተሰብ ክፍሎችን በፋይናንስ ለማገዝ በማለም በ ክልሉ መንግስት እና በ ፯ ባለ ራዕይ ሼርሆልደሮች  የተቋቋመ ተቋም ነው ። ተቋማችን በ ፩ ሚ ብር መነሻ ካፒታል ለህብረተሰቡ ተደራሽ የሆነ  የፋይናንስ አማራጭ በማቅረብ በ ፩፱፱፯ ስራውን ሀ ብሎ ጀምሯል ',
+    aboutus: 'ስለ እኛ',
+    aboutusparagraph1: 'የሐረር ብድርና ቁጠባ ተቋም አማ በ ፩፱፱፯ አም በጥቃቅንና አነስተኛ ስራዎች ላይ ለተሰማሩ የክልሉ ና የ አካባቢው የህብረተሰብ ክፍሎችን በፋይናንስ ለማገዝ በማለም በ ክልሉ መንግስት እና በ ፯ ባለ ራዕይ ሼርሆልደሮች የተቋቋመ ተቋም ነው ። ተቋማችን በ ፩ ሚ ብር መነሻ ካፒታል ለህብረተሰቡ ተደራሽ የሆነ የፋይናንስ አማራጭ በማቅረብ በ ፩፱፱፯ ስራውን ሀ ብሎ ጀምሯል',
+    aboutusparagraph2: 'ከተቋቋመበት ጊዜ ኣንስቶ ትቋሙ ኣገልግሎቱንና ተደራሽነቱን በማስፋት ተጨማኊ ፫ ቅርንጫፎጭን መክፈት ችሏል ።በተጨማሪም ተቋሙ ይሰጣቸው ከነበሩ የማህበር ና የጥቃቅንና አነስተኛ ብድሮች ተጨማሪ ሌሎች የብደርና ተቀማጭ አገልግሎቶችን በማከል ከሀያ አንድ በላይ አገልግሎቶችን በማቅረብ ላይ ይገኛል',
+    aboutusparagraph3: 'የሐረር ብድርና ቁጠባ ተቋም አማ በ ፩፱፱፯ አም በጥቃቅንና አነስተኛ ስራዎች ላይ ለተሰማሩ የክልሉ ና የ አካባቢው የህብረተሰብ ክፍሎችን በፋይናንስ ለማገዝ በማለም በ ክልሉ መንግስት እና በ ፯ ባለ ራዕይ ሼርሆልደሮች የተቋቋመ ተቋም ነው ። ተቋማችን በ ፩ ሚ ብር መነሻ ካፒታል ለህብረተሰቡ ተደራሽ የሆነ የፋይናንስ አማራጭ በማቅረብ በ ፩፱፱፯ ስራውን ሀ ብሎ ጀምሯል',
+    more: 'ተጨማሪ',
 
-      /* Features section*/
-    whyus:'ለምን ይመርጡናል',
-    feature1_title:' ታማኝ ተቋም',
-    feature1_paragraph:'ለደንበኞቻችን አስተማማኝ የፋይናንስ አገልግሎት በመስጠት ረገድ የተረጋገጠ ልምድ ያለን ታማኝ ተቋም ስለሆንን እንዲሁም ለተለያዩ የፋይናንስ ፍላጎቶ አስተማማኝ የሆነ በግልጽነት እና ታማኝነት ላይ የተመሰረተ ግልጋሎቶችን ስለምንሰጥ',
-    feature2_title:'የላቀ አገልግሎት',
-    feature2_paragraph:'ያልወሳሰበ ፣ ተደራሽ ፣ ቀላል እና ፈጣን  የፋይናንስ አገልግሎቶችን  እናቀርባለን።የፋይናንስ አገልግሎትን በፍጥነት እና በቀላል እናቀርባለን። ያልተወሳሰበና  የተስተካከሉ የፋይናንስ  ሂደቶች በመከተል ለፍላጎቶችዎ  ፈጣን፣ ቀላል ና ምቹ አገልግሎችን እንዲያገኙ በማድረግ የፋይናንስ አስተዳደርን ቀጥተኛ እና ተደራሽ በማድረግ',
-    feature3_title:' የተለያዩ አማራጮች',
-    feature3_paragraph:'በደንበኞች ምርጫ ላይ ተመርኩዘን የተለያዩ ተለዋዋጭ የፋይናንስ እቅዶችን  እናቀርባለን።የተለያዩ የፋይናንስ  አማራጮችን  በማዘጋጀት ከደንበኞች የግል ሁኔታ ጋር  የሚጣጣሙ መፍትሄዎችን በመስጠት ደንበኞቻችን በማቋቋም ተደራሽ የሆነ የፋይናንስ ስርዐት ኢንዲኖር በማድረግ ላይ ስለምንገኝ',    
-    feature4_title:' ዘመናዊ ቴክኖሎጂ',
-    feature4_paragraph:'ዘመኑ በደረሰበት የ ኮር ባንኪንግ ቴክኖሎጂ በመታገዝ ደንበኞቻችንን ቀልጣፋና አስተማማን በሆነ መንገደ በማገልገል ላይ እንገኛለን። የምንጠቀማቸው  ዘመናዊ መሳሪያዎች እና ሲስተሞች የእርስዎን የፋይናንስ ተሞክሮ ለማሻሻል እና እንከን አልባ አገልግሎትን ለመስጠት ያስችሉናል።',
+    // Features section
+    whyus: 'ለምን ይመርጡናል',
+    feature1_title: 'ታማኝ ተቋም',
+    feature1_paragraph: 'ለደንበኞቻችን አስተማማኝ የፋይናንስ አገልግሎት በመስጠት ረገድ የተረጋገጠ ልምድ ያለን ታማኝ ተቋም ስለሆንን እንዲሁም ለተለያዩ የፋይናንስ ፍላጎቶ አስተማማኝ የሆነ በግልጽነት እና ታማኝነት ላይ የተመሰረተ ግልጋሎቶችን ስለምንሰጥ',
+    feature2_title: 'የላቀ አገልግሎት',
+    feature2_paragraph: 'ያልወሳሰበ ፣ ተደራሽ ፣ ቀላል እና ፈጣን የፋይናንስ አገልግሎቶችን እናቀርባለን።የፋይናንስ አገልግሎትን በፍጥነት እና በቀላል እናቀርባለን። ያልተወሳሰበና የተስተካከሉ የፋይናንስ ሂደቶች በመከተል ለፍላጎቶችዎ ፈጣን፣ ቀላል ና ምቹ አገልግሎችን እንዲያገኙ በማድረግ የፋይናንስ አስተዳደርን ቀጥተኛ እና ተደራሽ በማድረግ',
+    feature3_title: 'የተለያዩ አማራጮች',
+    feature3_paragraph: 'በደንበኞች ምርጫ ላይ ተመርኩዘን የተለያዩ ተለዋዋጭ የፋይናንስ እቅዶችን እናቀርባለን።የተለያዩ የፋይናንስ አማራጮችን በማዘጋጀት ከደንበኞች የግል ሁኔታ ጋር የሚጣጣሙ መፍትሄዎችን በመስጠት ደንበኞቻችን በማቋቋም ተደራሽ የሆነ የፋይናንስ ስርዐት ኢንዲኖር በማድረግ ላይ ስለምንገኝ',
+    feature4_title: 'ዘመናዊ ቴክኖሎጂ',
+    feature4_paragraph: 'ዘመኑ በደረሰበት የ ኮር ባንኪንግ ቴክኖሎጂ በመታገዝ ደንበኞቻችንን ቀልጣፋና አስተማማን በሆነ መንገደ በማገልገል ላይ እንገኛለን። የምንጠቀማቸው ዘመናዊ መሳሪያዎች እና ሲስተሞች የእርስዎን የፋይናንስ ተሞክሮ ለማሻሻል እና እንከን አልባ አገልግሎትን ለመስጠት ያስችሉናል።',
 
-
-    // Services section
-
+    // Services
     servicesTitle: 'አገልግሎቶች',
-    servicesSubtitle: ' ፍላጎቶን የተመረኮዙ የተለያዩ የፋይናንስ አማራጮች',
-    service_title1:' የቁጠባ አገልግሎቶች',
-    service1_paragraph1:'የተለያዩ የቁጠባ አይነቶችን እናቀርባለን ። የቁጠባ አይነቶቻችን የደንበኞቻችንን የተጠቃሚነት የሚያረጋግጥ እንዲሁም ለፍላጎታቸው የተሰናዳ ነው ። በምናቀርበው ተወዳዳሪ የወለድ መጠን መሰረት ቁጠባዎን በፈለጉት መልኩ በረጅምም ሆነ በ አጭር ጊዜ ማስቀመጥ ያስችሎታል',
+    servicesSubtitle: 'ፍላጎቶን የተመረኮዙ የተለያዩ የፋይናንስ አማራጮች',
+    service_title1: 'የቁጠባ አገልግሎቶች',
+    service1_paragraph1: 'የተለያዩ የቁጠባ አይነቶችን እናቀርባለን ። የቁጠባ አይነቶቻችን የደንበኞቻችንን የተጠቃሚነት የሚያረጋግጥ እንዲሁም ለፍላጎታቸው የተሰናዳ ነው ። በምናቀርበው ተወዳዳሪ የወለድ መጠን መሰረት ቁጠባዎን በፈለጉት መልኩ በረጅምም ሆነ በ አጭር ጊዜ ማስቀመጥ ያስችሎታል',
+    service2_title: 'የብድር አገልግሎቶች',
+    service2_paragraph: 'ለርሶ የንግድ ስራ እንዲሁም የግል ፍላጎት ተስማሚ የሆኑ የብድር አማራጮችን እናቀርባለን። በተለያዩ የክፍያ አማራጮችን በማቅረብ የርሶን እድገት ለመደገፍ እንሰራለን::',
+    service3_title: 'ከወለድ ነጻ አገልግሎቶች',
+    service3_paragraph: 'ከወለድ ነጻ እንዲሁም የሸሪዓ መርህ የተከተሉ የተለያዩ የቁጠባና የብድር አማራጮችን እናቀርባለን ። ወለድ የማይጠቀሙ ደንበኞችን ያማከለ ልዩ ከወለድ ነጻ ግልጋሎቶችን እኛ ጋር ያገኛሉ::',
 
-    service2_title:' የብድር አገልግሎቶች',
-    service2_paragraph:' ለርሶ የንግድ ስራ እንዲሁም የግል ፍላጎት ተስማሚ የሆኑ የብድር አማራጮችን እናቀርባለን። በተለያዩ የክፍያ አማራጮችን በማቅረብ የርሶን እድገት ለመደገፍ እንሰራለን::',
-
-    service3_title:' ከወለድ ነጻ አገልግሎቶች',
-    service3_paragraph:'ከወለድ ነጻ  እንዲሁም የሸሪዓ መርህ  የተከተሉ የተለያዩ የቁጠባና የብድር አማራጮችን እናቀርባለን ። ወለድ የማይጠቀሙ ደንበኞችን ያማከለ ልዩ ከወለድ ነጻ ግልጋሎቶችን እኛ ጋር ያገኛሉ::',
-
+    // Service Cards
+    Microloans: 'ጥቃቅን ብድሮች',
+    MicroloansDesc: 'ለነጋዴዎች እና ግለሰቦች የንግድ ስራቸውን ለመጀመር ወይም ለማሳደግ የተነደፉ ትናንሽ ብድሮች።',
+    'Savings Accounts': 'የቁጠባ ሂሳቦች',
+    'Savings AccountsDesc': 'ለወደፊት የፋይናንስ ደህንነት ለመገንባት ተወዳዳሪ የወለድ መጠን ያላቸው አስተማማኝ የቁጠባ ሂሳቦች።',
+    'Financial Education': 'የፋይናንስ ትምህርት',
+    'Financial EducationDesc': 'የፋይናንስ ማንበብና መጻፍ እና የገንዘብ አስተዳደር ክህሎቶችን ለማሻሻል የተነደፉ ወርክሾፖች እና ሀብቶች።',
+    'Group Lending': 'የቡድን ብድር',
+    'Group LendingDesc': 'ካፒታል ለማግኘት የማህበረሰብ ትስስርን የሚጠቀሙ የትብብር ብድር ፕሮግራሞች።',
+    'Insurance Products': 'የኢንሹራንስ ምርቶች',
+    'Insurance ProductsDesc': 'ቤተሰብዎን፣ ጤንነትዎን እና ንግድዎን ከማይጠበቁ ክስተቶች ለመጠበቅ ተመጣጣኝ የኢንሹራንስ አማራጮች።',
+    'Credit Building': 'የብድር ግንባታ',
+    'Credit BuildingDesc': 'ለተሻሉ የፋይናንስ እድሎች የብድር ታሪክዎን ለመመስረት እና ለማሻሻል የተነደፉ ፕሮግራሞች።',
 
     // About section
     aboutTitle: 'ስለ እኛ',
-    aboutSubtitle: 'TRANSLATION NEEDED',
-    ourMission: 'TRANSLATION NEEDED',
-    missionText: 'TRANSLATION NEEDED',
-    ourVision: 'TRANSLATION NEEDED',
-    visionText: 'TRANSLATION NEEDED',
-    ourValues: 'TRANSLATION NEEDED',
+    aboutSubtitle: 'የእኛ ተልእኮ እና ራዕይ',
+    ourMission: 'የእኛ ተልእኮ',
+    missionText: 'አገልግሎት ያላገኙ ማህበረሰቦችን የፋይናንስ አገልግሎት በመስጠት፣ የኢኮኖሚ እድገትን እና የፋይናንስ ማካተትን ለማጎልበት ቁርጠኞች ነን።',
+    ourVision: 'የእኛ ራዕይ',
+    visionText: 'ሁሉም ሰው ህይወቱን እና ማህበረሰቡን ለማሻሻል ፍትሃዊ እና ግልጽ የፋይናንስ አገልግሎት የሚያገኝበት ዓለም።',
+    ourValues: 'የእኛ እሴቶች',
 
     // Blog section
-    blogTitle: 'TRANSLATION NEEDED',
-    blogSubtitle: 'TRANSLATION NEEDED',
-    readMore: 'TRANSLATION NEEDED',
+    blogTitle: 'የቅርብ ጊዜ ዜናዎች',
+    blogSubtitle: 'በቅርብ ጊዜ ዜናዎቻችን እና ግንዛቤዎች ዝማኔ ይሁኑ',
+    readMore: 'ተጨማሪ ያንብቡ',
 
     // Contact section
-    contactTitle: 'TRANSLATION NEEDED',
-    contactSubtitle: 'TRANSLATION NEEDED',
-    yourName: 'TRANSLATION NEEDED',
-    yourEmail: 'TRANSLATION NEEDED',
-    subject: 'TRANSLATION NEEDED',
-    message: 'TRANSLATION NEEDED',
-    send: 'TRANSLATION NEEDED',
+    contactTitle: 'ያግኙን',
+    contactSubtitle: 'ከእርስዎ መስማት እንወዳለን',
+    yourName: 'የእርስዎ ስም',
+    yourEmail: 'የእርስዎ ኢሜይል',
+    subject: 'ርዕስ',
+    message: 'መልእክት',
+    send: 'መልእክት ላክ',
 
+    // Footer
+    quickLinks: 'ወደ',
+    contactUs: 'ያግኙን',
+    location: 'Charleville Ave., ሐረር',
+    Country: 'ኢትዮጵያ',
+    copyright: ' ሐረር ብድርና ቁጠባ ተቋም ። መብቱ በህግ የተጠበቀ ነው።',
+    footerparagraph1: 'ከ2005 ጀምሮ ተደራሽ የፋይናንስ አገልግሎቶች በኩል ማህበረሰቦችን ማብቃት',
+    workingHours: 'የስራ ሰዓት',
+    mondayToFriday: 'ከሰኞ እስከ አርብ',
+    morningHours: 'ጠዋት: 2:00 – 6:00',
+    afternoonHours: 'ከሰአት: 8:00 – 11:30',
+    Saturday: 'ቅዳሜ',
+    saturdayHours: 'ጠዋት: 2:00 – 6:00',
 
-  // Footer
-    quickLinks:'ወደ',
-    contactUs:'ያግኙን',
-    location:'Charleville Ave., ሐረር ',
-    Country:'ኢትዮጵያ',
-    copyright: ' ሐረር ብድርና ቁጠባ ተቋም ። መብቱ በህግ የተጠበቀ ነው። ',
-    footerparagraph1:'Empowering communities through accessible financial services since 2005 ',
-    workingHours:'የስራ ሰዓት',
-    mondayToFriday:' ከሰኞ እስከ አርብ',
-    morningHours:'ጠዋት: 2:00  – 6:00', 
-    afternoonHours:'ከሰአት: 8:00  – 11:30',
-    Saturday:' ቅዳሜ',
-    saturdayHours:'ጠዋት: 2:00 – 6:00 ',
-
+    // Loan Calculator
+    title: 'የብድር ካልኩሌተር',
+    amount: 'የብድር መጠን (ብር)',
+    interest: 'ዓመታዊ የወለድ መጠን (%)',
+    term: 'የብድር ጊዜ (ዓመታት)',
+    calculate: 'ሰላ',
+    monthlyPayment: 'የተገመተ ወርሃዊ ክፍያ',
+    schedule: 'የመመለሻ መርሃ ግብር',
+    month: 'ወር',
+    payment: 'ክፍያ',
+    interestPaid: 'ወለድ',
+    principalPaid: 'ዋና',
+    balance: 'ቀሪ',
 
     // Chatbot
-    chatbotTitle: 'TRANSLATION NEEDED',
-    chatbotPlaceholder: 'TRANSLATION NEEDED',
-    chatbotWelcome: 'TRANSLATION NEEDED',
-    selectOption: 'TRANSLATION NEEDED',
-    backToMenu: 'TRANSLATION NEEDED',
-    chatbotDefaultResponse: 'TRANSLATION NEEDED',
-     
+    chatbotTitle: 'እንዴት ልንረዳዎ እንችላለን?',
+    chatbotPlaceholder: 'ጥያቄዎን ይተይቡ...',
+    chatbotWelcome: 'ሰላም! እርዳታ ለመስጠት እዚህ ነኝ። እባክዎ ከታች ያለውን አማራጭ ይምረጡ ወይም ጥያቄዎን ይተይቡ።',
+    selectOption: 'አማራጭ ይምረጡ',
+    backToMenu: 'ወደ ሜኑ ተመለስ',
+    chatbotDefaultResponse: 'ይቅርታ፣ በዚያ ልዩ ርዕስ ላይ መረጃ የለኝም። እባክዎ ከሜኑ ውስጥ ከሚገኙት አማራጮች ውስጥ አንዱን ይምረጡ።',
+
     // FactsStats
-      labelAactiveCustomers: 'ደንበኞች',
-      valueAactiveCustomers: 14160 ,
-      AactiveCustomerssuffix: ' +',
+    labelAactiveCustomers: 'ደንበኞች',
+    valueAactiveCustomers: 14160,
+    AactiveCustomerssuffix: ' +',
+    labelTotalCapital: 'የተከፈለ ካፒታል',
+    valueTotalCapital: 302,
+    TotalCapitalsuffix: ' ሚ +',
+    labelBranches: 'ቅርንጫፎች',
+    valueBranches: 4,
+    Branchessuffix: ' +',
+    labelYearsOfOperation: 'የሥራ ዓመታት',
+    valueYearsOfOperation: 18,
+    suffix: ' +',
 
-      labelTotalCapital: 'የተከፈለ ካፒታል',
-      valueTotalCapital: 302,
-      TotalCapitalsuffix: ' ሚ +',
-
-      labelBranches: 'ቅርንጫፎች',
-      valueBranches: 4,
-      Branchessuffix: ' +',
-
-      labelYearsOfOperation: 'የሥራ ዓመታት',
-      valueYearsOfOperation: 18,
-      suffix: ' +',
+    // Additional translations
+    ViewAllServices: 'ሁሉንም አገልግሎቶች ይመልከቱ',
+    ViewAllArticles: 'ሁሉንም ጽሁፎች ይመልከቱ',
+    learnMore: 'ተጨማሪ ይወቁ',
+    getStarted: 'ይጀምሩ',
+    slideAlt1: 'ስላይድ 1',
+    slideTitle1: 'ወደ ሐረር ማይክሮፋይናንስ እንኳን በደህና መጡ',
+    slideSubtitle1: 'ተደራሽ የፋይናንስ አገልግሎቶች በኩል ማህበረሰቦችን ማብቃት',
+    slideAlt2: 'ስላይድ 2',
+    slideTitle2: 'የእርስዎ የፋይናንስ አጋር',
+    slideSubtitle2: 'በጋራ ጠንካራ ማህበረሰቦችን መገንባት',
+    slideAlt3: 'ስላይድ 3',
+    slideTitle3: 'ፈጠራ መፍትሄዎች',
+    slideSubtitle3: 'ለሁሉም ዘመናዊ ባንኪንግ',
   },
+
   om: {
-    institutionTitle: 'waldaa liqii qusannaa  ',
+    // Institution's Name
+    institutionTitle: 'waldaa liqii qusannaa',
     institutionTitle2: 'Harar',
+
     // Navigation
     home: 'Bakka',
     about: 'Nuufaa',
@@ -377,191 +307,276 @@ export const translations = {
     contact: 'Nu qunnami',
 
     // Home page
-    slideTitle1: 'TRANSLATION NEEDED',
-    slideSubtitle1: 'TRANSLATION NEEDED',
-    slideTitle2: '',
-    slideSubtitle2: '',
-    slideTitle3: '',
-    slideSubtitle3: '',
-    aboutus: 'ስለ እኛ',
-    aboutusparagraph1: 'የሐረር የማይክሮ ፋይናንስ ተቋም አማ ፣የኢኮኖሚ ዕድገትን እና የፋይናንስ ዘላቂነትን ለማጎልበት ቁርጠኛ የሆነ ተቋም ነው ስለሆነም ይህን ለማሳለጥ  በገጠርም ሆነ በከተማ ውስጥ ያሉ ግለሰቦች እና ኢንተርፕራይዞች አስፈላጊ እና ተደራሽ የሆነ የፋይናንስ አገልግሎት በመስጠት  ላይ ነው።ዝቅተኛ ገቢ ባላቸው የህብረተሰብ ክፍሎች ላይ በማነጣጠር ደንበኞቻችን የፋይናንስ ነጻነት እንዲያረጋግጡ ና  የኑሮ ሁኔታቸውን በማሻሻል ለማህበረሰባቸው ልማት በንቃት እንዲሳተፉ እናደርጋለን',
-    aboutusparagraph2: 'TRANSLATION NEEDED',
-     more:'Translation needed',
-    // Services section
-    servicesTitle: 'Tajaajiloota',
-    servicesSubtitle: 'TRANSLATION NEEDED',
-    servicesDescription: 'TRANSLATION NEEDED',
-    service1: 'TRANSLATION NEEDED',
-    service2: 'TRANSLATION NEEDED',
-    service3: 'TRANSLATION NEEDED',
-    service4: 'TRANSLATION NEEDED',
-    service5: 'TRANSLATION NEEDED',
-    service6: 'TRANSLATION NEEDED',
-    service7: 'TRANSLATION NEEDED',
+    aboutus: 'Nuufaa',
+    aboutusparagraph1: 'Dhaabbanni Liqii fi Qusannaa Harar S.C bara 2005 keessa hundeeffame, kaayyoo daldala xixiqqaa fi giddu galeessaa Naannoo Hararii keessatti deeggaruuf. Mootummaa Naannoo Hararii fi qooda fudhattota yaada qaban torba waliin hundeeffame, kaappitaala jalqabaa birrii 1,000,000 tiin jalqabee bara 2005 Fulbaana keessa hojii isaa jalqabe.',
+    aboutusparagraph2: 'Hundeeffamee as, dhaabbanni kun tajaajila isaa babalʼisee, mana hojii damee sadii banee jira. Jalqaba keessa oomisha liqii lama - Liqii Garee fi Liqii MSE qofa dhiyeessaa ture, amma garuu oomisha liqii adda addaa digdamii tokkoo ol dhiyeessa, gaaffii guddachaa jiru deebisuu.',
+    aboutusparagraph3: 'Waggaa 18 hojii fi maamiltoota cimaa 14,160 ol qabna. Qabeenyaa guddaa birrii miliyoona 429 bulchina, kaappitaala kaffaltame birrii miliyoona 302 qabna. Dhaabbanni keenya hojjettota ogummaa qaban 45 ol damee 4 keessatti qabachuudhaan guddina itti fufiinsa qabu argachiisuuf gumaacha godha.',
+    more: 'Dabalataa',
+
+    // Features section
+    whyus: 'Maaliif Nu Filattan',
+    feature1_title: 'Dhaabbata Amanamaa',
+    feature1_paragraph: 'Nu dhaabbata amanamaa tajaajila maallaqaa amanamaa maamiltoota keenyaaf kennuu keessatti muuxannoo mirkaneeffame qabnu. Kutannoo keenya iftoominaa fi amanamummaa irratti hundaaʼe tajaajila maallaqaa fedhii keessaniif mijatu akka argattan taasisa.',
+    feature2_title: 'Tajaajila Olaanaa',
+    feature2_paragraph: 'Furmaata maallaqaa saffisaa fi salphaadhaan dhiyeessina. Adeemsi keenya haala gaariitti qindaaʼe tajaajila ariifataa, rakkoo hin qabne fedhii keessaniif mijatu akka argattan taasisa, bulchiinsa maallaqaa keessan kallattii fi dhaqqabamaa taasisa.',
+    feature3_title: 'Karaalee Adda Addaa',
+    feature3_paragraph: 'Filannoo maamiltoota irratti hundaaʼuudhaan karoora maallaqaa jijjiiramaa adda addaa dhiyeessina. Karaalee maallaqaa adda addaa qopheessuudhaan haala dhuunfaa maamiltoota waliin walsimu furmaata kennuudhaan maamiltoota keenya ijaaruudhaan sirna maallaqaa dhaqqabamaa taʼe akka argatan gochuu.',
+    feature4_title: 'Teeknooloojii Ammayyaa',
+    feature4_paragraph: 'Teeknooloojii baankii bu\'uuraa ammayyaa fayyadamuudhaan maamiltoota keenya haala kallattiifi nageenya qabuun tajaajiluu. Meeshaalee fi sirni ammayyaa nu fayyadamnu muuxannoo maallaqaa keessan fooyyessuuf fi tajaajila rakkoo hin qabne kennuuf nu dandeessisa.',
+
+    // Services
+    servicesTitle: 'Oomishaalee fi Tajaajiloota',
+    servicesSubtitle: 'Furmaatawwan maallaqaa fedhii keessaniif mijatan',
+    service_title1: 'Oomishaalee Qusannaa',
+    service1_paragraph1: 'Gosootaa qusannaa adda addaa maamiltoota nageenya maallaqaa ijaaruuf gargaaran dhiyeessina. Haalli jijjiiramaa fi dhalaa dorgommii qabu. Fedhii yeroo gabaabaa ykn dheeraa taʼeef',
+    service2_title: 'Oomishaalee Liqii',
+    service2_paragraph: 'Daldala fi namoota dhuunfaa humna kennuuf furmaata liqii mijatu dhiyeessina. Karaalee kaffaltii jijjiiramaa fi dhalaa dorgommii qabuun. Liqiin keenya guddina keessan deeggaruuf qophaaʼe.',
+    service3_title: 'Oomishaalee Islaamaa',
+    service3_paragraph: 'Oomishaaleen keenya Shariʼaa waliin walsimu mala naamusaa fi halaal qusannaa fi liqii lamaaniif dhugoomsuu furmaata dhala hin qabne fedhii maallaqaa keessan guutuuf seera Islaamaa cimsee hordofuu.',
+
+    // Service Cards
+    Microloans: 'Liqii Xixiqqaa',
+    MicroloansDesc: 'Liqii xixiqqaa daldaltoota daldala isaanii jalqabuuf ykn guddisaniif fi namoota dhuunfaa fedhii maallaqaa isaanii guutuuf qophaaʼe.',
+    'Savings Accounts': 'Herregaa Qusannaa',
+    'Savings AccountsDesc': 'Herregaa qusannaa nageenya qabu dhalaa dorgommii qabu egeree nageenya maallaqaa ijaaruuf gargaaru.',
+    'Financial Education': 'Barnoota Maallaqaa',
+    'Financial EducationDesc': 'Warshaalee fi qabeenya ogummaa dubbisuu fi barreessuu maallaqaa fi dandeettii bulchiinsa maallaqaa fooyyessuuf qophaaʼan.',
+    'Group Lending': 'Liqii Garee',
+    'Group LendingDesc': 'Sagantaalee liqii tumsa kaappitaala argachuuf hidhannoo hawaasaa fayyadaman.',
+    'Insurance Products': 'Oomishaalee Inshuraansii',
+    'Insurance ProductsDesc': 'Filannoo inshuraansii gatii madaalawaa maatii, fayyaa fi daldala keessan taateewwan hin eegamne irraa eeguuf.',
+    'Credit Building': 'Ijaarsa Liqii',
+    'Credit BuildingDesc': 'Sagantaalee seenaa liqii keessan hundeessuuf fi fooyyessuuf carraa maallaqaa fooyya\'aa argachuuf qophaaʼan.',
 
     // About section
     aboutTitle: 'Nuufaa',
-    aboutSubtitle: 'TRANSLATION NEEDED',
-    ourMission: 'TRANSLATION NEEDED',
-    missionText: 'TRANSLATION NEEDED',
-    ourVision: 'TRANSLATION NEEDED',
-    visionText: 'TRANSLATION NEEDED',
-    ourValues: 'TRANSLATION NEEDED',
+    aboutSubtitle: 'Ergamaa fi mul\'ata keenya',
+    ourMission: 'Ergamaa Keenya',
+    missionText: 'Hawaasa tajaajila dhabaniif tajaajila maallaqaa kennuu, guddina dinagdeetii fi hammachuu maallaqaa guddisuu irratti kutannoo qabna.',
+    ourVision: 'Mul\'ata Keenya',
+    visionText: 'Addunyaa namni hundi jireenya isaatii fi hawaasa isaa fooyyessuuf tajaajila maallaqaa haqa qabeessaa fi ifa ta\'e argatu.',
+    ourValues: 'Gatiiwwan Keenya',
 
     // Blog section
-    blogTitle: 'TRANSLATION NEEDED',
-    blogSubtitle: 'TRANSLATION NEEDED',
-    readMore: 'TRANSLATION NEEDED',
+    blogTitle: 'Oduu Haaraa',
+    blogSubtitle: 'Oduu fi hubannoo keenya haaraatiin haaromfamaa turaa',
+    readMore: 'Dabalataa Dubbisaa',
 
     // Contact section
-    contactTitle: 'Nu qunnami',
-    contactSubtitle: 'TRANSLATION NEEDED',
-    yourName: 'TRANSLATION NEEDED',
-    yourEmail: 'TRANSLATION NEEDED',
-    subject: 'TRANSLATION NEEDED',
-    message: 'TRANSLATION NEEDED',
-    send: 'TRANSLATION NEEDED',
+    contactTitle: 'Nu Qunnamaa',
+    contactSubtitle: 'Isin irraa dhagaʼuu feena',
+    yourName: 'Maqaa Keessan',
+    yourEmail: 'Imeelii Keessan',
+    subject: 'Mata Duree',
+    message: 'Ergaa',
+    send: 'Ergaa Ergii',
 
     // Footer
-    copyright: 'TRANSLATION NEEDED',
-    privacy: 'TRANSLATION NEEDED',
-    terms: 'TRANSLATION NEEDED',
-    footerparagraph1:'Empowering communities through accessible financial services since 2005 ',
+    quickLinks: 'Hidhannoo Saffisaa',
+    contactUs: 'Nu Qunnamaa',
+    location: 'Charleville Ave., Harar',
+    Country: 'Itoophiyaa',
+    copyright: ' Dhaabbata Maayikroo Faayinaansii Harar. Mirgi hundi seera jalatti eegame.',
+    footerparagraph1: 'Bara 2005 as tajaajila maallaqaa dhaqqabamaa ta\'een hawaasa hummeessuu',
+    workingHours: 'Sa\'aatii Hojii',
+    mondayToFriday: 'Wiixata hanga Jimaata',
+    morningHours: 'Ganama: 8:00 AM – 12:00 PM',
+    afternoonHours: 'Waaree booda: 2:00 PM – 5:30 PM',
+    Saturday: 'Sanbata',
+    saturdayHours: 'Ganama: 8:00 AM – 12:00 PM',
 
+    // Loan Calculator
+    title: 'Shallaggii Liqii',
+    amount: 'Hamma Liqii (Birr)',
+    interest: 'Dhalaa Waggaa (%)',
+    term: 'Yeroo Liqii (Waggaa)',
+    calculate: 'Shallagii',
+    monthlyPayment: 'Kaffaltii Ji\'a Tilmaamame',
+    schedule: 'Sagantaa Deebisuu',
+    month: 'Ji\'a',
+    payment: 'Kaffaltii',
+    interestPaid: 'Dhalaa',
+    principalPaid: 'Bu\'uura',
+    balance: 'Hafe',
 
     // Chatbot
-    chatbotTitle: 'TRANSLATION NEEDED',
-    chatbotPlaceholder: 'TRANSLATION NEEDED',
-    chatbotWelcome: 'TRANSLATION NEEDED',
-    selectOption: 'TRANSLATION NEEDED',
-    backToMenu: 'TRANSLATION NEEDED',
-    chatbotDefaultResponse: 'TRANSLATION NEEDED',
+    chatbotTitle: 'Akkamitti isin gargaaruu dandeenya?',
+    chatbotPlaceholder: 'Gaaffii keessan barreessaa...',
+    chatbotWelcome: 'Nagaa! Gargaarsa kennuuf asii jira. Maaloo filannoo armaan gadii keessaa tokko filaa ykn gaaffii keessan barreessaa.',
+    selectOption: 'Filannoo filaa',
+    backToMenu: 'Gara menyuu deebiʼi',
+    chatbotDefaultResponse: 'Dhiifama, mata duree addaa sana irratti odeeffannoo hin qabu. Maaloo menyuu keessaa filannoo jiran keessaa tokko filaa.',
+
+    // FactsStats
+    labelAactiveCustomers: 'Maamiltoota Sochii',
+    valueAactiveCustomers: 14160,
+    AactiveCustomerssuffix: ' +',
+    labelTotalCapital: 'Kaappitaala Kaffaltame',
+    valueTotalCapital: 302,
+    TotalCapitalsuffix: ' M +',
+    labelBranches: 'Dameewwan',
+    valueBranches: 4,
+    Branchessuffix: ' +',
+    labelYearsOfOperation: 'Waggaawwan Hojii',
+    valueYearsOfOperation: 18,
+    suffix: ' +',
+
+    // Additional translations
+    ViewAllServices: 'Tajaajila Hunda Ilaali',
+    ViewAllArticles: 'Barruulee Hunda Ilaali',
+    learnMore: 'Dabalataa Baradhu',
+    getStarted: 'Jalqabi',
+    slideAlt1: 'Islaayidii 1',
+    slideTitle1: 'Gara Maayikroo Faayinaansii Harar Baga Nagaan Dhuftan',
+    slideSubtitle1: 'Tajaajila maallaqaa dhaqqabamaa ta\'een hawaasa hummeessuu',
+    slideAlt2: 'Islaayidii 2',
+    slideTitle2: 'Michuu Maallaqaa Keessan',
+    slideSubtitle2: 'Waliin hawaasa cimaa ijaaruu',
+    slideAlt3: 'Islaayidii 3',
+    slideTitle3: 'Furmaata Kallattiiwwan',
+    slideSubtitle3: 'Baankii ammayyaa hundaaf',
   },
+
   hr: {
-    institutionTitle: 'ሐረር ሊቂህ ዋ ቂሊ ቂሊ  ',
+    // Institution's Name
+    institutionTitle: 'ሐረር ሊቂህ ዋ ቂሊ',
     institutionTitle2: 'ታእሲስ',
+
     // Navigation
-    home: 'Bakka',
-    about: 'Nuufaa',
-    services: 'Tajaajiloota',
-    blog: 'Blogger',
-    contact: 'Nu qunnami',
+    home: 'ቤት',
+    about: 'ስለ እኛ',
+    services: 'አገልግሎቶች',
+    blog: 'ዜና',
+    contact: 'ያግኙን',
+
     // Home page
-    slideTitle1: 'TRANSLATION NEEDED',
-    slideSubtitle1: 'TRANSLATION NEEDED',
-    slideTitle2: '',
-    slideSubtitle2: '',
-    slideTitle3: '',
-    slideSubtitle3: '',
-    aboutus: 'TRANSLATION NEEDED',
-    aboutusparagraph1: 'TRANSLATION NEEDED',
-    aboutusparagraph2: 'TRANSLATION NEEDED',
-    more:'TRANSLATION NEEDED',
-    // Services section
-    servicesTitle: 'አገልግሎቶች',
-    servicesSubtitle: 'የገንዘብ መፍትሔዎች ወደ ወደፊት ይመራሉ', // Review this translation
-    servicesDescription: 'የገንዘብ መፍትሔዎች ወደ ወደፊት ይመራሉ', // Review this translation
-    service1: 'TRANSLATION NEEDED',
-    service2: 'TRANSLATION NEEDED',
-    service3: 'TRANSLATION NEEDED',
-    service4: 'TRANSLATION NEEDED',
-    service5: 'TRANSLATION NEEDED',
-    service6: 'TRANSLATION NEEDED',
-    service7: 'TRANSLATION NEEDED',
+    aboutus: 'ስለ እኛ',
+    aboutusparagraph1: 'የሐረር ብድርና ቁጠባ ተቋም በ2005 ዓ.ም. ተቋቁሞ በሐረሪ ክልላዊ መንግስት ውስጥ ያሉ ጥቃቅንና አነስተኛ ንግዶችን ለመደገፍ ተልእኮ ይዞ ነው። በሐረሪ ክልላዊ መንግስት እና በሰባት ራዕይ ባለቤቶች ተቋቁሞ፣ በ1,000,000 ብር መነሻ ካፒታል ጀምሮ በሴፕቴምበር 2005 ኦፊሴላዊ ስራውን ጀመረ።',
+    aboutusparagraph2: 'ከተቋቋመበት ጊዜ ጀምሮ ተቋሙ አገልግሎቱን በማስፋት ሦስት የቅርንጫፍ ቢሮዎችን ከፍቷል። መጀመሪያ ላይ ሁለት የብድር ምርቶች - የቡድን ብድሮች እና የMSE ብድሮች ብቻ ይሰጥ ነበር፣ አሁን ግን ከሃያ አንድ በላይ የተለያዩ የብድር ምርቶችን ይሰጣል፣ ለጨመረው ፍላጎት ምላሽ ይሰጣል።',
+    aboutusparagraph3: '18 ዓመት የስራ ልምድ እና ከ14,160 በላይ ንቁ ደንበኞች አሉን። 429 ሚሊዮን ብር ንብረት እና 302 ሚሊዮን ብር የተከፈለ ካፒታል እንቆጣጠራለን። ድርጅታችን በ4 ቅርንጫፎች ውስጥ ከ45 በላይ የሰለጠኑ ሰራተኞች ይሰራሉ፣ ይህም ለቀጣይ እድገት እና ስኬት አስተዋፅኦ ያደርጋል።',
+    more: 'ተጨማሪ',
+
+    // Features section
+    whyus: 'ለምን እኛን ይመርጡ',
+    feature1_title: 'የታመነ ተቋም',
+    feature1_paragraph: 'ለደንበኞቻችን አስተማማኝ የፋይናንስ አገልግሎት በመስጠት የተረጋገጠ ልምድ ያለን የታመነ ተቋም ነን። የግልጽነት እና ታማኝነት ቁርጠኝነታችን ለፋይናንስ ፍላጎቶችዎ እንድታምኑብን ያረጋግጣል።',
+    feature2_title: 'የላቀ አገልግሎት',
+    feature2_paragraph: 'የፋይናንስ መፍትሄዎችን በፍጥነት እና በቀላሉ እናቀርባለን። የተስተካከሉ ሂደቶቻችን ለፍላጎቶችዎ ተስማሚ የሆነ ፈጣን፣ ችግር የሌለበት አገልግሎት እንድታገኙ ያረጋግጣል፣ የፋይናንስ አስተዳደርዎን ቀጥተኛ እና ተደራሽ ያደርገዋል።',
+    feature3_title: 'ተለዋዋጭ እቅዶች',
+    feature3_paragraph: 'ለደንበኞቻችን የተለያዩ ፍላጎቶች ተስማሚ የሆኑ የተለያዩ ተለዋዋጭ የፋይናንስ እቅዶችን እናቀርባለን። እንደ የታመነ ተቋም፣ ደንበኞች ከግላዊ ሁኔታዎቻቸው ጋር የሚጣጣሙ መፍትሄዎች በመስጠት እራሳቸውን ማቋቋም እንዲችሉ ለመርዳት ቁርጠኞች ነን።',
+    feature4_title: 'ዘመናዊ ቴክኖሎጂ',
+    feature4_paragraph: 'በፈጠራ እና በቀልጣፋ መንገድ ለማገልገል የሚያስችለንን ዘመናዊ የኮር ባንኪንግ መፍትሄ እንጠቀማለን። ዘመናዊ መሳሪያዎቻችን እና ሲስተሞች የፋይናንስ ተሞክሮዎን ለማሻሻል እንከን የሌለበት አገልግሎት እንዲያገኙ ያረጋግጣሉ።',
+
+    // Services
+    servicesTitle: 'ምርቶች እና አገልግሎቶች',
+    servicesSubtitle: 'ለፍላጎቶችዎ የተስማሙ የፋይናንስ መፍትሄዎች',
+    service_title1: 'የቁጠባ ምርቶች',
+    service1_paragraph1: 'ደንበኞች ተለዋዋጭ ውሎች እና ተወዳዳሪ የወለድ መጠኖች ያላቸው የፋይናንስ ደህንነት እንዲገነቡ የሚረዱ የተለያዩ የቁጠባ ምርቶችን እናቀርባለን። ለአጭር ጊዜ ፍላጎቶች ወይም ለረጅም ጊዜ ግቦች',
+    service2_title: 'የብድር ምርቶች',
+    service2_paragraph: 'ንግዶችን እና ግለሰቦችን ተለዋዋጭ የመመለሻ አማራጮች እና ተወዳዳሪ መጠኖች ያላቸው ለማብቃት የተስማሙ የብድር መፍትሄዎችን እናቀርባለን። ብድሮቻችን እድገትዎን ለመደገፍ የተነደፉ ናቸው።',
+    service3_title: 'እስላማዊ ምርቶች',
+    service3_paragraph: 'የሸሪዓ ህግን በጥብቅ በመከተል የፋይናንስ ፍላጎቶችዎን ለማሟላት ወለድ የሌላቸው መፍትሄዎችን በማቅረብ ለቁጠባ እና ብድር ሁለቱም ሥነ ምግባራዊ እና ሃላል ዘዴዎችን የሚያረጋግጡ የሸሪዓ ተኳሃኝ ምርቶች አሉን።',
+
+    // Service Cards
+    Microloans: 'ጥቃቅን ብድሮች',
+    MicroloansDesc: 'ነጋዴዎች ንግዳቸውን ለመጀመር ወይም ለማሳደግ እና ግለሰቦች የፋይናንስ ፍላጎታቸውን ለማሟላት የተነደፉ ትናንሽ ብድሮች።',
+    'Savings Accounts': 'የቁጠባ ሂሳቦች',
+    'Savings AccountsDesc': 'ለወደፊት የፋይናንስ ደህንነት ለመገንባት ተወዳዳሪ የወለድ መጠኖች ያላቸው አስተማማኝ የቁጠባ ሂሳቦች።',
+    'Financial Education': 'የፋይናንስ ትምህርት',
+    'Financial EducationDesc': 'የፋይናንስ ማንበብና መጻፍ እና የገንዘብ አስተዳደር ክህሎቶችን ለማሻሻል የተነደፉ ወርክሾፖች እና ሀብቶች።',
+    'Group Lending': 'የቡድን ብድር',
+    'Group LendingDesc': 'ካፒታል ለማግኘት የማህበረሰብ ትስስርን የሚጠቀሙ የትብብር ብድር ፕሮግራሞች።',
+    'Insurance Products': 'የኢንሹራንስ ምርቶች',
+    'Insurance ProductsDesc': 'ቤተሰብዎን፣ ጤንነትዎን እና ንግድዎን ከማይጠበቁ ክስተቶች ለመጠበቅ ተመጣጣኝ የኢንሹራንስ አማራጮች።',
+    'Credit Building': 'የብድር ግንባታ',
+    'Credit BuildingDesc': 'ለተሻሉ የፋይናንስ እድሎች የብድር ታሪክዎን ለመመስረት እና ለማሻሻል የተነደፉ ፕሮግራሞች።',
+
     // About section
-    aboutTitle: 'Nuufaa',
-    aboutSubtitle: 'TRANSLATION NEEDED',
-    ourMission: 'TRANSLATION NEEDED',
-    missionText: 'TRANSLATION NEEDED',
-    ourVision: 'TRANSLATION NEEDED',
-    visionText: 'TRANSLATION NEEDED',
-    ourValues: 'TRANSLATION NEEDED',
+    aboutTitle: 'ስለ እኛ',
+    aboutSubtitle: 'የእኛ ተልእኮ እና ራዕይ',
+    ourMission: 'የእኛ ተልእኮ',
+    missionText: 'አገልግሎት ያላገኙ ማህበረሰቦችን የፋይናንስ አገልግሎት በመስጠት፣ የኢኮኖሚ እድገትን እና የፋይናንስ ማካተትን ለማጎልበት ቁርጠኞች ነን።',
+    ourVision: 'የእኛ ራዕይ',
+    visionText: 'ሁሉም ሰው ህይወቱን እና ማህበረሰቡን ለማሻሻል ፍትሃዊ እና ግልጽ የፋይናንስ አገልግሎት የሚያገኝበት ዓለም።',
+    ourValues: 'የእኛ እሴቶች',
+
     // Blog section
-    blogTitle: 'TRANSLATION NEEDED',
-    blogSubtitle: 'TRANSLATION NEEDED',
-    readMore: 'TRANSLATION NEEDED',
+    blogTitle: 'የቅርብ ጊዜ ዜናዎች',
+    blogSubtitle: 'በቅርብ ጊዜ ዜናዎቻችን እና ግንዛቤዎች ዝማኔ ይሁኑ',
+    readMore: 'ተጨማሪ ያንብቡ',
+
     // Contact section
-    contactTitle: 'Nu qunnami',
-    contactSubtitle: 'TRANSLATION NEEDED',
-    yourName: 'TRANSLATION NEEDED',
-    yourEmail: 'TRANSLATION NEEDED',
-    subject: 'TRANSLATION NEEDED',
-    message: 'TRANSLATION NEEDED',
-    send: 'TRANSLATION NEEDED',
+    contactTitle: 'ያግኙን',
+    contactSubtitle: 'ከእርስዎ መስማት እንወዳለን',
+    yourName: 'የእርስዎ ስም',
+    yourEmail: 'የእርስዎ ኢሜይል',
+    subject: 'ርዕስ',
+    message: 'መልእክት',
+    send: 'መልእክት ላክ',
+
     // Footer
-    copyright: 'TRANSLATION NEEDED',
-    privacy: 'TRANSLATION NEEDED',
-    terms: 'TRANSLATION NEEDED',
-    footerparagraph1:'Empowering communities through accessible financial services since 2005 ',
+    quickLinks: 'ፈጣን አገናኞች',
+    contactUs: 'ያግኙን',
+    location: 'Charleville Ave., ሐረር',
+    Country: 'ኢትዮጵያ',
+    copyright: ' ሐረር ማይክሮፋይናንስ ተቋም። ሁሉም መብቶች የተጠበቁ ናቸው።',
+    footerparagraph1: 'ከ2005 ጀምሮ ተደራሽ የፋይናንስ አገልግሎቶች በኩል ማህበረሰቦችን ማብቃት',
+    workingHours: 'የስራ ሰዓቶች',
+    mondayToFriday: 'ከሰኞ እስከ አርብ',
+    morningHours: 'ጠዋት: 8:00 AM – 12:00 PM',
+    afternoonHours: 'ከሰአት: 2:00 PM – 5:30 PM',
+    Saturday: 'ቅዳሜ',
+    saturdayHours: 'ጠዋት: 8:00 AM – 12:00 PM',
+
+    // Loan Calculator
+    title: 'የብድር ካልኩሌተር',
+    amount: 'የብድር መጠን (ብር)',
+    interest: 'ዓመታዊ የወለድ መጠን (%)',
+    term: 'የብድር ጊዜ (ዓመታት)',
+    calculate: 'ሰላ',
+    monthlyPayment: 'የተገመተ ወርሃዊ ክፍያ',
+    schedule: 'የመመለሻ መርሃ ግብር',
+    month: 'ወር',
+    payment: 'ክፍያ',
+    interestPaid: 'ወለድ',
+    principalPaid: 'ዋና',
+    balance: 'ቀሪ',
 
     // Chatbot
-    chatbotTitle: 'TRANSLATION NEEDED',
-    chatbotPlaceholder: 'TRANSLATION NEEDED',
-    chatbotWelcome: 'TRANSLATION NEEDED',
-    selectOption: 'TRANSLATION NEEDED',
-    backToMenu: 'TRANSLATION NEEDED',
-    chatbotDefaultResponse: 'TRANSLATION NEEDED',
-  },
-};
+    chatbotTitle: 'እንዴት ልንረዳዎ እንችላለን?',
+    chatbotPlaceholder: 'ጥያቄዎን ይተይቡ...',
+    chatbotWelcome: 'ሰላም! እርዳታ ለመስጠት እዚህ ነኝ። እባክዎ ከታች ያለውን አማራጭ ይምረጡ ወይም ጥያቄዎን ይተይቡ።',
+    selectOption: 'አማራጭ ይምረጡ',
+    backToMenu: 'ወደ ሜኑ ተመለስ',
+    chatbotDefaultResponse: 'ይቅርታ፣ በዚያ ልዩ ርዕስ ላይ መረጃ የለኝም። እባክዎ ከሜኑ ውስጥ ከሚገኙት አማራጮች ውስጥ አንዱን ይምረጡ።',
 
+    // FactsStats
+    labelAactiveCustomers: 'ንቁ ደንበኞች',
+    valueAactiveCustomers: 14160,
+    AactiveCustomerssuffix: ' +',
+    labelTotalCapital: 'የተከፈለ ካፒታል',
+    valueTotalCapital: 302,
+    TotalCapitalsuffix: ' ሚ +',
+    labelBranches: 'ቅርንጫፎች',
+    valueBranches: 4,
+    Branchessuffix: ' +',
+    labelYearsOfOperation: 'የሥራ ዓመታት',
+    valueYearsOfOperation: 18,
+    suffix: ' +',
 
-
-
-
-export const services: Service[] = [
-  {
-    id: '1',
-    title: 'Microloans',
-    description: 'Small loans designed to help entrepreneurs start or grow their businesses and individuals meet their financial needs.',
-    icon: 'HandCoins'
+    // Additional translations
+    ViewAllServices: 'ሁሉንም አገልግሎቶች ይመልከቱ',
+    ViewAllArticles: 'ሁሉንም ጽሁፎች ይመልከቱ',
+    learnMore: 'ተጨማሪ ይወቁ',
+    getStarted: 'ይጀምሩ',
+    slideAlt1: 'ስላይድ 1',
+    slideTitle1: 'ወደ ሐረር ማይክሮፋይናንስ እንኳን በደህና መጡ',
+    slideSubtitle1: 'ተደራሽ የፋይናንስ አገልግሎቶች በኩል ማህበረሰቦችን ማብቃት',
+    slideAlt2: 'ስላይድ 2',
+    slideTitle2: 'የእርስዎ የፋይናንስ አጋር',
+    slideSubtitle2: 'በጋራ ጠንካራ ማህበረሰቦችን መገንባት',
+    slideAlt3: 'ስላይድ 3',
+    slideTitle3: 'ፈጠራ መፍትሄዎች',
+    slideSubtitle3: 'ለሁሉም ዘመናዊ ባንኪንግ',
   },
-  {
-    id: '2',
-    title: 'Savings Accounts',
-    description: 'Secure savings accounts with competitive interest rates to help you build financial security for the future.',
-    icon: 'PiggyBank'
-  },
-  {
-    id: '3',
-    title: 'Financial Education',
-    description: 'Workshops and resources designed to improve financial literacy and money management skills.',
-    icon: 'BarChart4'
-  },
-  {
-    id: '4',
-    title: 'Group Lending',
-    description: 'Collaborative lending programs that leverage community bonds to provide access to capital.',
-    icon: 'UsersRound'
-  },
-  {
-    id: '5',
-    title: 'Insurance Products',
-    description: 'Affordable insurance options to protect your family, health, and business against unexpected events.',
-    icon: 'Landmark'
-  },
-  {
-    id: '6',
-    title: 'Credit Building',
-    description: 'Programs designed to help establish and improve your credit history for better financial opportunities.',
-    icon: 'BadgePercent'
-  }
-];
-
-export const getIconComponent = (iconName: string) => {
-  switch (iconName) {
-    case 'HandCoins':
-      return HandCoins;
-    case 'PiggyBank':
-      return PiggyBank;
-    case 'BarChart4':
-      return BarChart4;
-    case 'UsersRound':
-      return UsersRound;
-    case 'Landmark':
-      return Landmark;
-    case 'BadgePercent':
-      return BadgePercent;
-    default:
-      return HandCoins;
-  }
 };

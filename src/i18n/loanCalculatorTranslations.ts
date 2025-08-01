@@ -1,4 +1,4 @@
-const translations = {
+export default {
   en: {
     title: 'Loan Calculator',
     amount: 'Loan Amount (ETB)',
@@ -11,22 +11,48 @@ const translations = {
     payment: 'Payment',
     interestPaid: 'Interest',
     principalPaid: 'Principal',
-    balance: 'Balance'
+    balance: 'Balance',
   },
   am: {
-    title: 'የብድር መስተካከያ',
+    title: 'የብድር ካልኩሌተር',
     amount: 'የብድር መጠን (ብር)',
-    interest: 'ዓመታዊ የወጪ ተመን (%)',
+    interest: 'ዓመታዊ የወለድ መጠን (%)',
     term: 'የብድር ጊዜ (ዓመታት)',
-    calculate: 'አስላ',
-    monthlyPayment: 'ወርሃዊ ክፍያ',
-    schedule: 'የክፍያ መርሃግብር',
+    calculate: 'ሰላ',
+    monthlyPayment: 'የተገመተ ወርሃዊ ክፍያ',
+    schedule: 'የመመለሻ መርሃ ግብር',
     month: 'ወር',
     payment: 'ክፍያ',
-    interestPaid: 'ወጪ',
-    principalPaid: 'መሬት ክፍያ',
-    balance: 'ቀሪ ተመን'
-  }
-  // Add om, ti as needed
+    interestPaid: 'ወለድ',
+    principalPaid: 'ዋና',
+    balance: 'ቀሪ',
+  },
+  om: {
+    title: 'Shallaggii Liqii',
+    amount: 'Hamma Liqii (Birr)',
+    interest: 'Dhalaa Waggaa (%)',
+    term: 'Yeroo Liqii (Waggaa)',
+    calculate: 'Shallagii',
+    monthlyPayment: 'Kaffaltii Ji\'a Tilmaamame',
+    schedule: 'Sagantaa Deebisuu',
+    month: 'Ji\'a',
+    payment: 'Kaffaltii',
+    interestPaid: 'Dhalaa',
+    principalPaid: 'Bu\'uura',
+    balance: 'Hafe',
+  },
+  hr: {
+    title: 'የብድር ካልኩሌተር',
+    amount: 'የብድር መጠን (ብር)',
+    interest: 'ዓመታዊ የወለድ መጠን (%)',
+    term: 'የብድር ጊዜ (ዓመታት)',
+    calculate: 'ሰላ',
+    monthlyPayment: 'የተገመተ ወርሃዊ ክፍያ',
+    schedule: 'የመመለሻ መርሃ ግብር',
+    month: 'ወር',
+    payment: 'ክፍያ',
+    interestPaid: 'ወለድ',
+    principalPaid: 'ዋና',
+    balance: 'ቀሪ',
+  },
 };
-export default translations;
